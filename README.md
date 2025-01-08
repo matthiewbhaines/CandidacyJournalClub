@@ -3,7 +3,8 @@
 ## Objective:
 
 1.  present Hwang et al. (2018) as a journal club to the joint Simons-Cooperstone labs
-!(Hwang18Abstract.png)
+
+![screenshot](Hwang18Abstract.png)
 
 ## Present:
 
