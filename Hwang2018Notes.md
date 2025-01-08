@@ -32,3 +32,14 @@ bibliography: MyLibrary.bib
 - this study aims to $\uparrow$ N (sample size) and use multivariate associated analysis (?) to identify common genetic variances (minor allele frequency [MAF] $\geq$ 5%) with small effects  
   + what is the "plain English" version?
 - using MV GWAS can find associations that didn't reach significance in univariate analysis
+
+![**Figure 1**](https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs12864-018-5058-2/MediaObjects/12864_2018_5058_Fig1_HTML.png?as=webp)  
+
+  + 1A: spread on y axis, not on x axis
+    + only T1 (y axis) is associated with variant (non-pleiotropic)
+    + better separation seen in 2D (practice with the pencil test from high school math class)
+  + 1B: spread on y and x axis
+    + minor allele has opposing effects, $\uparrow$ T1 (Y) and $\downarrow$ T2 (X)
+    + starting to see the spread on y and x axes, especially when combined
+  + 1C: minor allele has similar effects, $\uparrow$ T1 (Y) and $\uparrow$ T2 (X)
+    + no greater separation with bivariate analysis than would get with univariate
