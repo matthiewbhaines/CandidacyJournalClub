@@ -1,0 +1,30 @@
+---
+title: "Journal Club Notes"
+author: "Matthiew Haines"
+date: '`r Sys.Date()`'
+output: 
+  html_document:
+    keep-md: true
+editor_options: 
+  markdown: 
+    wrap: 72
+bibliography: MyLibrary.bib
+---
+
+# Objective:  
+  1. present @HwangEtAl+shortyear as a journal club to the joint Simons-Cooperstone labs 
+
+## Present:   
+  1. Read the papers, *describe* the general methodologies used and data presented, 
+  and *summarize* it and its findings 
+  2. What do these findings *mean* for your own research?
+  
+# Outline:
+## Intro/Background  
+## Methods  
+## Results  
+## Discussion
+### Implications of my research
+## Conclusions
+
+# References:
