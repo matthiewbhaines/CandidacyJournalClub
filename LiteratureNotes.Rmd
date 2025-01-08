@@ -11,11 +11,20 @@ editor_options:
 bibliography: MyLibrary.bib
 ---
 
-**Objective:** present @HwangEtAl+shortyear as a journal club to the joint Simons-Cooperstone labs 
+# Objective:  
+  1. present @HwangEtAl+shortyear as a journal club to the joint Simons-Cooperstone labs 
 
-**Present:**  
+## Present:   
   1. Read the papers, *describe* the general methodologies used and data presented, 
   and *summarize* it and its findings 
   2. What do these findings *mean* for your own research?
+  
+# Outline:
+## Intro/Background  
+## Methods  
+## Results  
+## Discussion
+### Implications of my research
+## Conclusions
 
-**References:**
+# References:
