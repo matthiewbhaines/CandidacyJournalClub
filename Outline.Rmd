@@ -21,6 +21,11 @@ bibliography: MyLibrary.bib
   
 # Outline:
 ## Intro/Background  
+### 1. describe a problem
+### 2. describe a question
+### 3. describe other's responses
+### 4. explain a need for a new/novel approach
+### 5. say your aim
 ## Methods  
 ## Results  
 ## Discussion
