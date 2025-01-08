@@ -12,3 +12,6 @@ bibliography: MyLibrary.bib
 ---
 # Abstract: 
 ![*Abstract of Hwang et al. (2018)*](C:/Users/Matthiew/Documents/Research/Candidacy/JournalClub/CandidacyJournalClub/Hwang18Abstract.png)
+
+
+![screenshot](Hwang18Abstract.png)
