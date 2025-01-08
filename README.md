@@ -1,2 +1,14 @@
 # Candidacy Journal Club
-Documents for creating/presenting journal club
+
+## Objective:
+
+1.  present Hwang et al. (2018) as a journal club to the joint Simons-Cooperstone labs
+
+## Present:
+
+1.  Read the papers, *describe* the general methodologies used and data presented, and *summarize* it and its findings
+2.  What do these findings *mean* for your own research?
+
+### Citation:
+
+Hwang et al. *BMC Genomics* (2018) 19:678 <https://doi.org/10.1186/s12864-018-5058-2>
