@@ -11,4 +11,24 @@ editor_options:
 bibliography: MyLibrary.bib
 ---
 # Abstract: 
-![*Abstract of Hwang et al. (2018)*](C:/Users/Matthiew/Documents/Research/Candidacy/JournalClub/CandidacyJournalClub/Hwang18Abstract.png)
+![*Abstract of Hwang et al. (2018)*](C:/Users/Matthiew/Documents/Research/Candidacy/JournalClub/CandidacyJournalClub/Hwang18Abstract.png)  
+
+# Glossary/Abbreviations:
+- haplotype  
+- TAS2R  
+- T2R  
+- multivariate associated analysis  
+- genome-wide association study (GWAS)  
+- minor allele frequency (MAF)  
+- pleiotropy  
+  
+# Introduction  
+- bitterness perception is partially determined by genetics  
+  + genetic effect is estimated to be between 36% and 73%
+- *TAS2R* is a gene; *T2R* is the protein product
+- what is a **haplotype**?
+- PROP is associated with TAS2R38
+- Quinine (Q) is associated with TAS2R19
+- this study aims to $\uparrow$ N (sample size) and use multivariate associated analysis (?) to identify common genetic variances (minor allele frequency [MAF] $\geq$ 5%) with small effects  
+  + what is the "plain English" version?
+- using MV GWAS can find associations that didn't reach significance in univariate analysis
