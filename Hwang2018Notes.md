@@ -14,18 +14,20 @@ bibliography: MyLibrary.bib
 ![*Abstract of Hwang et al. (2018)*](C:/Users/Matthiew/Documents/Research/Candidacy/JournalClub/CandidacyJournalClub/Hwang18Abstract.png)  
 
 # Glossary/Abbreviations:
-- haplotype  
-- TAS2R  
-- T2R  
+- haplotype - a group of SNPs ([NIH lecture](https://youtu.be/HHvdupHgeFg?si=zvgAl1gHi0-YxVmt))  
+- TAS2R - a gene  
+- T2R - a protein  
 - multivariate associated analysis  
 - genome-wide association study (GWAS)  
 - minor allele frequency (MAF)  
 - pleiotropy  
+- single nucleotide polymorphism (SNP): a single change in a base pair
   
 # Introduction  
 - bitterness perception is partially determined by genetics  
   + genetic effect is estimated to be between 36% and 73%
 - *TAS2R* is a gene; *T2R* is the protein product
+- bitter taste perception has been correlated with disease status and certain surgical outcomes, so it is important to understand bitterness perception in the interest in personalizing medicine  
 - what is a **haplotype**?
 - PROP is associated with TAS2R38
 - Quinine (Q) is associated with TAS2R19
@@ -43,3 +45,5 @@ bibliography: MyLibrary.bib
     + starting to see the spread on y and x axes, especially when combined
   + 1C: minor allele has similar effects, $\uparrow$ T1 (Y) and $\uparrow$ T2 (X)
     + no greater separation with bivariate analysis than would get with univariate
+    
+- what is/are the hypotheses when conducting a GWAS?
