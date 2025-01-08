@@ -18,11 +18,15 @@ bibliography: MyLibrary.bib
 - TAS2R - a gene  
 - T2R - a protein  
 - multivariate associated analysis  
-- genome-wide association study (GWAS)  
-- minor allele frequency (MAF)  
+- genome-wide association study (GWAS) - aim to identify genetic risk factors for common diseases by utilizing DNA sequence variations (@BushMoore+shortyear)  
+- minor allele frequency (MAF) - frequency of the less common allele in a SNP (@BushMoore+shortyear)  
 - pleiotropy  
-- single nucleotide polymorphism (SNP): a single change in a base pair
-  
+- single nucleotide polymorphism (SNP): a single change in a base pair, seen/occur with high frequency, common, given in terms of minor allele frequency  (@BushMoore+shortyear)  
+- linkage disequilibrium (LD): if 2 pairs are always seen together (at higher than chance level) (ex. AB and ab) out of possible combinations (AB, Ab, aB, ab), distance between 2 genes is assumed to be small  
+- mutation - low frequency variation in genetic sequence, rare (@BushMoore+shortyear)
+- susceptibility variant
+- penetrance - effect size (of a genetic variant) (@BushMoore+shortyear)
+
 # Introduction  
 - bitterness perception is partially determined by genetics  
   + genetic effect is estimated to be between 36% and 73%
