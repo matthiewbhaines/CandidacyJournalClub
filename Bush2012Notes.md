@@ -1,7 +1,7 @@
 ---
 title: "Bush and Moore (2012) Notes"
 author: "Matthiew Haines"
-date: '2025-01-08'
+date: '2025-01-10'
 output: 
   html_document:
     keep_md: true
@@ -24,9 +24,15 @@ bibliography: MyLibrary.bib
 - pleiotropy  
 - single nucleotide polymorphism (SNP): a single change in a base pair, seen/occur with high frequency, common, given in terms of minor allele frequency  (@BushMoore+shortyear)  
 - linkage disequilibrium (LD): if 2 pairs are always seen together (at higher than chance level) (ex. AB and ab) out of possible combinations (AB, Ab, aB, ab), distance between 2 genes is assumed to be small  
+  + linkage between markers on a population scale (across many many generations) (@BushMoore+shortyear)
+  + *linkage equilibrium* would be when no alleles/markers are linked, independent
+  + LD is reported in R^2, where $\uparrow$ r^2 means two SNPs convey similar info
 - mutation - low frequency variation in genetic sequence, rare (@BushMoore+shortyear)
 - susceptibility variant
 - penetrance - effect size (of a genetic variant) (@BushMoore+shortyear)
+- phenotype
+- recombination
+
 
 # 1. Important Questions in Human Genetics
 - GWAS studies aim to identify genetic risk factors for common diseases by utilizing DNA sequence variations  
@@ -46,8 +52,22 @@ bibliography: MyLibrary.bib
   + ex. if 40% of total variance in disease risk is due to genetic factors, what is the plain English?
 
 
-![Figure 1](https://storage.googleapis.com/plos-corpus-prod/10.1371/journal.pcbi.1002822/1/pcbi.1002822.g001.PNG_L?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=wombat-sa%40plos-prod.iam.gserviceaccount.com%2F20250108%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20250108T171057Z&X-Goog-Expires=86400&X-Goog-SignedHeaders=host&X-Goog-Signature=5d9e6ce937aaa9521baa2a60507d299b3a6afb5c50939330d6e3bb26ec4648e36f9abdbd3d48995450dbbd2e4362a1adeeb59a0c50e682d230866848d53edb04d2b8d0b01fffba408a5c8cd32fe855fa87629c6e159f473f779980467511d0775bcc84d612b959eb78eb810cfe18da185f3b33418999ee7879c20d9175aea3b2ac07169e532110f0fc7e588b2d99af9b860334bdb2c8048ff0ddcae289272ae378d4c0f9ae7438f9e4735af4c43bfd35200ce8647d3e0e82883d1985d7101059eac741ebd846e20e82eb62dc4032c3c8d5e4fb1c29d62275370526fa92bff9f4006f4c61389600fa0a0191e4f77377ebb1de11cbe8e6b3cd5a26087a380901d9)
+![Figure 1](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6e2a/3531285/2e868bea85f6/pcbi.1002822.g001.jpg)
 
   + Lower Right - GWAS  
   + Upper Right - Linkage analysis and GWAS
   + Lower Left - difficult to challenge (not appropriate for GWAS)
+  
+# 3. Capuring Common Variation
+- need a systematic approach
+  1. identify location and density of SNPs
+  2. catalog/identify common GV
+  3. correlations between common GV (to prevent redundance)
+- European descendants have larger LD regions (more linkage)
+  + this may be important in @HwangEtAl+shortyear
+- outcomes from the presence of LD  
+  1. a *direct association*, where a *functional SNP* is associated with a specific trait
+  2. an *indirect association*, where a *tag SNP* is identifed and associated with a phenotype
+  
+## Notes
+- edit/update Bibtex citations
