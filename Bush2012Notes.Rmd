@@ -12,26 +12,30 @@ bibliography: MyLibrary.bib
 ---
 
 # Abstract: 
-![*Abstract of Bush and Moore (2012)*](C:/Users/Matthiew/Documents/Research/Candidacy/JournalClub/Bush2012Abstract.png)  
+![*Abstract of Bush and Moore (2012)*](C:/Users/Matthiew/Documents/Research/Candidacy/JournalClub/CandidacyJournalClub/Bush2012Abstract.png)  
 
 # Glossary/Abbreviations:
-- haplotype - a group of SNPs ([NIH lecture](https://youtu.be/HHvdupHgeFg?si=zvgAl1gHi0-YxVmt))  
-- TAS2R - a gene  
-- T2R - a protein  
-- multivariate associated analysis  
-- genome-wide association study (GWAS) - aim to identify genetic risk factors for common diseases by utilizing DNA sequence variations (@BushMoore+shortyear)  
-- minor allele frequency (MAF) - frequency of the less common allele in a SNP (@BushMoore+shortyear)  
+- *haplotype* - a group of SNPs ([NIH lecture](https://youtu.be/HHvdupHgeFg?si=zvgAl1gHi0-YxVmt))  
+- *TAS2R* - a gene  
+- *T2R* - a protein  
+- *multivariate associated analysis*  
+- *genome-wide association study (GWAS)* - aim to identify genetic risk factors for common diseases by utilizing DNA sequence variations (@BushMoore+shortyear)  
+- *minor allele frequency (MAF)* - frequency of the less common allele in a SNP (@BushMoore+shortyear)  
 - pleiotropy  
-- single nucleotide polymorphism (SNP): a single change in a base pair, seen/occur with high frequency, common, given in terms of minor allele frequency  (@BushMoore+shortyear)  
-- linkage disequilibrium (LD): if 2 pairs are always seen together (at higher than chance level) (ex. AB and ab) out of possible combinations (AB, Ab, aB, ab), distance between 2 genes is assumed to be small  
+- *single nucleotide polymorphism (SNP)* - a single change in a base pair, seen/occur with high frequency, common, given in terms of minor allele frequency  (@BushMoore+shortyear)  
+- *linkage disequilibrium (LD)* - if 2 pairs are always seen together (at higher than chance level) (ex. AB and ab) out of possible combinations (AB, Ab, aB, ab), distance between 2 genes is assumed to be small  
   + linkage between markers on a population scale (across many many generations) (@BushMoore+shortyear)
   + *linkage equilibrium* would be when no alleles/markers are linked, independent
   + LD is reported in R^2, where $\uparrow$ r^2 means two SNPs convey similar info
-- mutation - low frequency variation in genetic sequence, rare (@BushMoore+shortyear)
+- *mutation* - low frequency variation in genetic sequence, rare (@BushMoore+shortyear)
 - susceptibility variant
-- penetrance - effect size (of a genetic variant) (@BushMoore+shortyear)
-- phenotype
-- recombination
+- *penetrance* - effect size (of a genetic variant) (@BushMoore+shortyear)
+- *phenotype* - the expression of a certain trait (think "physical")
+- *genotype* - the genetic makeup, or the specific combination of alleles (think "genes")
+
+![Genotype versus Phenotype](C:/Users/Matthiew/Documents/Research/Candidacy/JournalClub/CandidacyJournalClub/Genotype.jpg)
+
+- *recombination*
 
 
 # 1. Important Questions in Human Genetics
@@ -68,6 +72,23 @@ bibliography: MyLibrary.bib
 - outcomes from the presence of LD  
   1. a *direct association*, where a *functional SNP* is associated with a specific trait
   2. an *indirect association*, where a *tag SNP* is identifed and associated with a phenotype
+- *01162025*: Chris mentioned a GWAS is a big association/regression study
+  + in a way, GWAS is hypothesis seeking, rather than hypothesis driven  
+  
+# 4. Genotyping Technologies
+# 5. Study Design
+- two types of phenotypes: categorical and quantitative
+  + quantitative can improve power and have interpretable outcome
+  + categorical could be described as affected/unaffected
+- need to uniformly measure the phenotype response
+  + ex. classify disease type/severity
+  + how to remove bias in measuring perception?
+
+# 6. Association Test
+- GWAS tests each SNP *independently* for association to the phenotype
+
+# Questions
+- what factors, other than genetic, could be explanations of variance in bitterness perception?
   
 ## Notes
 - edit/update Bibtex citations
