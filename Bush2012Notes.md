@@ -21,7 +21,9 @@ bibliography: MyLibrary.bib
 - *multivariate associated analysis*  
 - *genome-wide association study (GWAS)* - aim to identify genetic risk factors for common diseases by utilizing DNA sequence variations (@BushMoore+shortyear)  
 - *minor allele frequency (MAF)* - frequency of the less common allele in a SNP (@BushMoore+shortyear)  
-- pleiotropy  
+- *pleiotropy* - one gene influences two or more seemingly unrelated phenotypic traits (Wikipedia)
+  + one gene controls expression of multiple/several phenotypic traits  
+  + ex. sickle cell disease ([ThoughtCo.](https://www.thoughtco.com/pleiotropy-definition-4687155))
 - *single nucleotide polymorphism (SNP)* - a single change in a base pair, seen/occur with high frequency, common, given in terms of minor allele frequency  (@BushMoore+shortyear)  
 - *linkage disequilibrium (LD)* - if 2 pairs are always seen together (at higher than chance level) (ex. AB and ab) out of possible combinations (AB, Ab, aB, ab), distance between 2 genes is assumed to be small  
   + linkage between markers on a population scale (across many many generations) (@BushMoore+shortyear)
@@ -34,6 +36,7 @@ bibliography: MyLibrary.bib
 - *genotype* - the genetic makeup, or the specific combination of alleles (think "genes")
 
 ![Genotype versus Phenotype](C:/Users/Matthiew/Documents/Research/Candidacy/JournalClub/CandidacyJournalClub/Genotype.jpg)
+[from the **National Human Genome Research Institute**](https://www.genome.gov/genetics-glossary/genotype)
 
 - *recombination*
 
@@ -56,7 +59,7 @@ bibliography: MyLibrary.bib
   + ex. if 40% of total variance in disease risk is due to genetic factors, what is the plain English?
 
 
-![Figure 1](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6e2a/3531285/2e868bea85f6/pcbi.1002822.g001.jpg)
+![**Figure 1**](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6e2a/3531285/2e868bea85f6/pcbi.1002822.g001.jpg)
 
   + Lower Right - GWAS  
   + Upper Right - Linkage analysis and GWAS
@@ -88,10 +91,9 @@ bibliography: MyLibrary.bib
 # 6. Association Test
 - GWAS tests each SNP *independently* for association to the phenotype  
 
-![Example of GWAS on quantitative trait (like CD)](https://onlinelibrary.wiley.com/cms/asset/ae8ea2ae-f5fb-459a-a5b0-d730560b72d9/cti21001-fig-0001-m.jpg)  
+![From @verstockt2018](C:/Users/Matthiew/Documents/Research/Candidacy/JournalClub/CandidacyJournalClub/QuantTraitGWAS.jpg)
 
-
-*Caption from @verstockt2018*:Basic principles of GWAS. GWAS has been made possible because of the haplotype structure of the human genome. Every chromosome consists of multiple haplotypes – regions that are inherited together during meiosis. Within each haplotype, there are typically many SNPs, which are co-inherited within the larger genetic region, and thus, their alleles are inherited nonrandomly (i.e. they are in linkage disequilibrium). This means that it is possible to infer the genotypes at multiple SNPs within the haplotype (shown in grey) if the genotype at one or more SNPs is known. GWAS SNPs (shown in black) are selected so as to tag each haplotype, but where association is observed, they are unlikely to be the causal variant at the locus (shown in red). By genotyping SNPs from each haplotype in the genome in disease cases and healthy controls, it is possible to identify SNPs where the allele frequency is significantly different between the cases and controls, and which are associated with the disease.
+**Basic principles of GWAS.** GWAS has been made possible because of the haplotype structure of the human genome. Every chromosome consists of multipe haplotypes – regions that are inherited together during meiosis. Within each haplotype, there are typically many SNPs, which are co-inherited within the larger genetic region, and thus, their alleles are inherited nonrandomly (i.e. they are in linkage disequilibrium). This means that it is possible to infer the genotypes at multiple SNPs within the haplotype (shown in grey) if the genotype at one or more SNPs is known. GWAS SNPs (shown in black) are selected so as to tag each haplotype, but where association is observed, they are unlikely to be the causal variant at the locus (shown in red). By genotyping SNPs from each haplotype in the genome in disease cases and healthy controls, it is possible to identify SNPs where the allele frequency is significantly different between the cases and controls, and which are associated with the disease.
 
 - quantitative traits are analyzed via ANOVA with a categorical main effect of genotype (ex. AA, Aa, aa)  
   + $H_0$: no differencebetween the trait means of any genotype group
@@ -102,7 +104,15 @@ bibliography: MyLibrary.bib
 - case/control traits are analyzed via logistic regression or chi-square tests
   + logisitic regression predicts the probability of having a case status given the patient's genotype
     + allows for covariates in the model (chi-square does not)
-    
+  - types of association tests:
+    + *allelic association* test between one allele of SNP and phenotype
+    + *genotypic association* test between genotype/genotype classes and phenotype
+      + a genotype class would be a model of expression, ex. dominant, recessive, or additive, etc.  
+      + common practice is to use additive model, such that there is a uniform, linear increase in risk for each copy of the *A* allele
+      + can use multiple models with appropriate correction for multiple testing
+- section 6.3 describe multiple ways of correcting the $\alpha$ value for multiple testing, from a simple Bonferroni correction to genome-wide significance
+- multi-locus models can be used to investigate the interaction of several alleles
+  + the combination of markers could incur a change in disease risk
 
 # Questions
 - what factors, other than genetic, could be explanations of variance in bitterness perception?
