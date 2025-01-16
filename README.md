@@ -17,3 +17,4 @@ Hwang et al. *BMC Genomics* (2018) 19:678 <https://doi.org/10.1186/s12864-018-50
 
 ### Helpful Videos:
 [Explanation of GWAS for beginners](https://www.youtube.com/watch?v=sOP8WacfBM8)
+[Intro to GWAS - Part 1](https://www.youtube.com/watch?v=Hjv_otXAkh0)
