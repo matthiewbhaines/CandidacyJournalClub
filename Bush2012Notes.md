@@ -61,7 +61,7 @@ bibliography: MyLibrary.bib
   + Lower Right - GWAS  
   + Upper Right - Linkage analysis and GWAS
   + Lower Left - difficult to challenge (not appropriate for GWAS)
-  + *NOD2 was identified by linkage analysis, not GWAS* (@VerstocktEtAl+shortyear)
+  + *NOD2 was identified by linkage analysis, not GWAS* (@verstockt2018)
   
 # 3. Capuring Common Variation
 - need a systematic approach
@@ -88,8 +88,10 @@ bibliography: MyLibrary.bib
 # 6. Association Test
 - GWAS tests each SNP *independently* for association to the phenotype  
 
-![Example of GWAS on quantitative trait (like CD)](https://onlinelibrary.wiley.com/cms/asset/ae8ea2ae-f5fb-459a-a5b0-d730560b72d9/cti21001-fig-0001-m.jpg)
-*Caption from @VerstocktEtAl+shortyear*:Basic principles of GWAS. GWAS has been made possible because of the haplotype structure of the human genome. Every chromosome consists of multiple haplotypes – regions that are inherited together during meiosis. Within each haplotype, there are typically many SNPs, which are co-inherited within the larger genetic region, and thus, their alleles are inherited nonrandomly (i.e. they are in linkage disequilibrium). This means that it is possible to infer the genotypes at multiple SNPs within the haplotype (shown in grey) if the genotype at one or more SNPs is known. GWAS SNPs (shown in black) are selected so as to tag each haplotype, but where association is observed, they are unlikely to be the causal variant at the locus (shown in red). By genotyping SNPs from each haplotype in the genome in disease cases and healthy controls, it is possible to identify SNPs where the allele frequency is significantly different between the cases and controls, and which are associated with the disease.
+![Example of GWAS on quantitative trait (like CD)](https://onlinelibrary.wiley.com/cms/asset/ae8ea2ae-f5fb-459a-a5b0-d730560b72d9/cti21001-fig-0001-m.jpg)  
+
+
+*Caption from @verstockt2018*:Basic principles of GWAS. GWAS has been made possible because of the haplotype structure of the human genome. Every chromosome consists of multiple haplotypes – regions that are inherited together during meiosis. Within each haplotype, there are typically many SNPs, which are co-inherited within the larger genetic region, and thus, their alleles are inherited nonrandomly (i.e. they are in linkage disequilibrium). This means that it is possible to infer the genotypes at multiple SNPs within the haplotype (shown in grey) if the genotype at one or more SNPs is known. GWAS SNPs (shown in black) are selected so as to tag each haplotype, but where association is observed, they are unlikely to be the causal variant at the locus (shown in red). By genotyping SNPs from each haplotype in the genome in disease cases and healthy controls, it is possible to identify SNPs where the allele frequency is significantly different between the cases and controls, and which are associated with the disease.
 
 - quantitative traits are analyzed via ANOVA with a categorical main effect of genotype (ex. AA, Aa, aa)  
   + $H_0$: no differencebetween the trait means of any genotype group
