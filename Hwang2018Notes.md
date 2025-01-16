@@ -1,7 +1,7 @@
 ---
 title: "Hwang et al. (2018) Notes"
 author: "Matthiew Haines"
-date: '2025-01-08'
+date: '2025-01-16'
 output: 
   html_document:
     keep_md: true
@@ -14,22 +14,36 @@ bibliography: MyLibrary.bib
 ![*Abstract of Hwang et al. (2018)*](C:/Users/Matthiew/Documents/Research/Candidacy/JournalClub/CandidacyJournalClub/Hwang18Abstract.png)  
 
 # Glossary/Abbreviations:
-- haplotype - a group of SNPs ([NIH lecture](https://youtu.be/HHvdupHgeFg?si=zvgAl1gHi0-YxVmt))  
-- TAS2R - a gene  
-- T2R - a protein  
-- multivariate associated analysis  
-- genome-wide association study (GWAS) - aim to identify genetic risk factors for common diseases by utilizing DNA sequence variations (@BushMoore+shortyear)  
-- minor allele frequency (MAF) - frequency of the less common allele in a SNP (@BushMoore+shortyear)  
-- pleiotropy  
-- single nucleotide polymorphism (SNP): a single change in a base pair, seen/occur with high frequency, common, given in terms of minor allele frequency  (@BushMoore+shortyear)  
-- linkage disequilibrium (LD): if 2 pairs are always seen together (at higher than chance level) (ex. AB and ab) out of possible combinations (AB, Ab, aB, ab), distance between 2 genes is assumed to be small  
-- mutation - low frequency variation in genetic sequence, rare (@BushMoore+shortyear)
+- *haplotype* - a group of SNPs ([NIH lecture](https://youtu.be/HHvdupHgeFg?si=zvgAl1gHi0-YxVmt))  
+- *TAS2R* - a gene  
+- *T2R* - a protein  
+- *multivariate associated analysis*  
+- *genome-wide association study (GWAS)* - aim to identify genetic risk factors for common diseases by utilizing DNA sequence variations (@BushMoore+shortyear)  
+- *minor allele frequency (MAF)* - frequency of the less common allele in a SNP (@BushMoore+shortyear)  
+- *pleiotropy* - one gene influences two or more seemingly unrelated phenotypic traits (Wikipedia)
+  + one gene controls expression of multiple/several phenotypic traits  
+  + ex. sickle cell disease ([ThoughtCo.](https://www.thoughtco.com/pleiotropy-definition-4687155))
+- *single nucleotide polymorphism (SNP)* - a single change in a base pair, seen/occur with high frequency, common, given in terms of minor allele frequency  (@BushMoore+shortyear)  
+- *linkage disequilibrium (LD)* - if 2 pairs are always seen together (at higher than chance level) (ex. AB and ab) out of possible combinations (AB, Ab, aB, ab), distance between 2 genes is assumed to be small  
+  + linkage between markers on a population scale (across many many generations) (@BushMoore+shortyear)
+  + *linkage equilibrium* would be when no alleles/markers are linked, independent
+  + LD is reported in R^2, where $\uparrow$ r^2 means two SNPs convey similar info
+- *mutation* - low frequency variation in genetic sequence, rare (@BushMoore+shortyear)
 - susceptibility variant
-- penetrance - effect size (of a genetic variant) (@BushMoore+shortyear)
+- *recombination*
+- *penetrance* - effect size (of a genetic variant) (@BushMoore+shortyear)
+- *phenotype* - the expression of a certain trait (think "physical")
+- *genotype* - the genetic makeup, or the specific combination of alleles (think "genes")
+
+![Genotype versus Phenotype](C:/Users/Matthiew/Documents/Research/Candidacy/JournalClub/CandidacyJournalClub/Genotype.jpg)
+[from the **National Human Genome Research Institute**](https://www.genome.gov/genetics-glossary/genotype)
+
+
 
 # Introduction  
 - bitterness perception is partially determined by genetics  
   + genetic effect is estimated to be between 36% and 73%
+  + this would be the "variance" described in @BushMoore+shortyear
 - *TAS2R* is a gene; *T2R* is the protein product
 - bitter taste perception has been correlated with disease status and certain surgical outcomes, so it is important to understand bitterness perception in the interest in personalizing medicine  
 - what is a **haplotype**?
@@ -51,3 +65,22 @@ bibliography: MyLibrary.bib
     + no greater separation with bivariate analysis than would get with univariate
     
 - what is/are the hypotheses when conducting a GWAS?
+  + see @BushMoore+shortyear, hypothesis seeking associations of genetic variances (SNPs) to a trait/disease  
+  
+# Methods
+- 1999 Caucasians (this is important from an ancestral history POV for the GWAS)
+  + mention this is an increase (by 40% of sample size)
+- taste battery methods described in @HansenEtAl+shortyear
+- removed participants > 6 SD away from PC1 and PC2, only those with exclusively European ancestry was kept
+
+## GWAS analysis
+- linear mixed model
+- covariates: age, sex, ear infection history, first 5 PC from genotype
+  + why were 5 PC included?
+  
+- bivariate analysis complemented univariate analysis
+- what is conditional analysis
+
+**Notes**
+- review linear mixed models
+- finish reading methods section
