@@ -16,15 +16,53 @@ bibliography: MyLibrary.bib
   
 # Outline:
 ## Intro/Background  
-### 1. describe a problem
-### 2. describe a question
-### 3. describe other's responses
-### 4. explain a need for a new/novel approach
-### 5. say your aim
+### 1. describe a problem  
+
+- bitterness is a basic taste, but isn't perceived the same way for everyone  
+- 36-73% of bitterness perception is due to genetics (@HwangEtAl+shortyear)  
+  + *what are some explanations of variability outside of genetic reasons?*
+  
+### 2. describe a question  
+
+- PROP bitterness has been implicated in fat perception (@tepperFatPerceptionRelated1997)  
+- PTC related to diseases (@Guo_Reed_2001), immune system, and surgical outcome of severe rhinosinusitis (@HwangEtAl+shortyear)  
+- want to understand "underlying genetic variation that leads to individual differences in bitter perception"
+  + this could have implications in "personalized medicine" (@HwangEtAl+shortyear; @BushMoore+shortyear)
+
+### 3. describe other's responses  
+
+- Previous GWAS (@Hansen2006) replicated association between *TAS2R38* and PROP perception  
+  + and identified a SNP within *TAS2R19*: accounting for 5.8% of variance in quinine perception  
+  + did not find loci for caffeine, SOA, or proposed second locus for PTC/PROP, suggested/proposed signals on chromosomes 5 and 16  
+  
+### 4. explain a need for a new/novel approach  
+
+- use multivariate association analysis to find common genetic variants (MAF $\ge$ 5%) with small effects  
+- can identify *pleiotropic* genetic variants
+- can identify variants with only one of the correlated phenotypes
+- using MV GWAS can find associations that didn't reach significance in univariate analysis
+
+![**Figure 1**](https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs12864-018-5058-2/MediaObjects/12864_2018_5058_Fig1_HTML.png?as=webp)  
+
+  + 1A: spread on y axis, not on x axis
+    + only T1 (y axis) is associated with variant (non-pleiotropic)
+    + better separation seen in 2D (practice with the pencil test from high school math class)
+  + 1B: spread on y and x axis
+    + minor allele has opposing effects, $\uparrow$ T1 (Y) and $\downarrow$ T2 (X)
+    + starting to see the spread on y and x axes, especially when combined
+  + 1C: minor allele has similar effects, $\uparrow$ T1 (Y) and $\uparrow$ T2 (X)
+    + no greater separation with bivariate analysis than would get with univariate
+    
+### 5. say your aim  
+![**Figure 1**](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6e2a/3531285/2e868bea85f6/pcbi.1002822.g001.jpg)
+
+- identify common genetic variants with small effect sizes (lower right of figure)
+  + these variants may have been underpowered in the previous GWAS study (@HansenEtAl+shortyear)
 
 ## Methods  
 ### Taste Perception
-- described in @HansenEtAl+shortyear  
+- described in @Hansen2006  
+
 ### GWAS
 - described in @HwangEtAl+shortyear
 - supplemental underpinings of GWAS from @BushMoore+shortyear
@@ -34,4 +72,7 @@ bibliography: MyLibrary.bib
 ### Implications of my research
 ## Conclusions
 
-# References:
+# Notes
+- read references 26 and 29 in Hwang et al
+
+# References
