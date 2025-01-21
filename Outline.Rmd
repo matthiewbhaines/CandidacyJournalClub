@@ -1,13 +1,8 @@
 ---
 title: "Journal Club Notes"
-author: "Matthiew Haines"
-date: '`r Sys.Date()`'
 output: 
   html_document:
     keep-md: true
-editor_options: 
-  markdown: 
-    wrap: 72
 bibliography: MyLibrary.bib
 ---
 
@@ -29,7 +24,7 @@ bibliography: MyLibrary.bib
 
 ## Methods  
 ### Taste Perception
-- described in @HansenEtAl+shortyear
+- described in @HansenEtAl+shortyear  
 ### GWAS
 - described in @HwangEtAl+shortyear
 - supplemental underpinings of GWAS from @BushMoore+shortyear

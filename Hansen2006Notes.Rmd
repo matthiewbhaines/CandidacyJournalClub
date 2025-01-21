@@ -1,13 +1,8 @@
 ---
 title: "Hansen et al. (2006) Notes"
-author: "Matthiew Haines"
-date: '`r Sys.Date()`'
 output: 
   html_document:
-    keep_md: true
-editor_options: 
-  markdown: 
-    wrap: 72
+    keep-md: true
 bibliography: MyLibrary.bib
 ---
 # Abstract: 
