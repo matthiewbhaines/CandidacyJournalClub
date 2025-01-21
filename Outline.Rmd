@@ -26,7 +26,14 @@ bibliography: MyLibrary.bib
 ### 3. describe other's responses
 ### 4. explain a need for a new/novel approach
 ### 5. say your aim
+
 ## Methods  
+### Taste Perception
+- described in @HansenEtAl+shortyear
+### GWAS
+- described in @HwangEtAl+shortyear
+- supplemental underpinings of GWAS from @BushMoore+shortyear
+
 ## Results  
 ## Discussion
 ### Implications of my research
