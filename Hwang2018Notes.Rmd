@@ -77,9 +77,21 @@ bibliography: MyLibrary.bib
 - linear mixed model
 - covariates: age, sex, ear infection history, first 5 PC from genotype
   + why were 5 PC included?
+  + covariate matrix allowed siblings/relatives to be included in the analysis
   
-- bivariate analysis complemented univariate analysis
+- bivariate analysis complemented univariate analysis  
+  + can enhance the strength of a SNP association, but not effect size  
+  
 - what is conditional analysis
+- square root transformed bitter intensity ratings, then transformed to z-scores
+- used p < $5 * 10^{-8}$ for genome wide significance
+  + used a Bonferroni corrected p < $1*10^{-8}$
+- used additive model
+- variance explained by SNP was calculated as $2* MAF* (1-MAF)* \beta^2$
+
+## Functional annotation of identified SNPs
+- functional annotation can be used to identify any potential roles of the identified SNPs
+  + could be used to identify/develop mechanistic hypotheses in understanding variance in taste perception based on the identified/associates SNPs
 
 **Notes**  
 
