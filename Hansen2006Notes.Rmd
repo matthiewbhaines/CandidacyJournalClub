@@ -20,7 +20,7 @@ The methods from @HwangEtAl+shortyear are described in detail here.
 - presentation of the samples were all the same for all participants
   + different presentation for replicate
 - presentation of the bitter samples were interwoven with water and sweet solutions
-- a dry PROP strip was also presented (not analyzed in @HansenEtAl+shortyear but in @HwangEtAl+shortyear)
+- a dry PROP strip was also presented (not analyzed in @Hansen2006 but in @HwangEtAl+shortyear)
 - analyzed taste sensation on LMS (@greenEvaluatingLabeledMagnitude1996 and '93)
 - Procedure
   - swish for 5 s, spit

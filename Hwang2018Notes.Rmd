@@ -65,12 +65,12 @@ bibliography: MyLibrary.bib
 # Methods
 - 1999 Caucasians (this is important from an ancestral history POV for the GWAS)
   + mention this is an increase (by 40% of sample size)
-- taste battery methods described in @HansenEtAl+shortyear
+- taste battery methods described in @Hansen2006
 - removed participants > 6 SD away from PC1 and PC2, only those with exclusively European ancestry was kept
 
 ## GWAS analysis
 - linear mixed model
-- covariates: age, sex, ear infection history, first 5 PC from genotype
+- covariates (fixed effects): age, sex, ear infection history, first 5 PC from genotype
   + why were 5 PC included?
   + covariate matrix allowed siblings/relatives to be included in the analysis
   
@@ -87,8 +87,3 @@ bibliography: MyLibrary.bib
 ## Functional annotation of identified SNPs
 - functional annotation can be used to identify any potential roles of the identified SNPs
   + could be used to identify/develop mechanistic hypotheses in understanding variance in taste perception based on the identified/associates SNPs
-
-**Notes**  
-
-- review linear mixed models
-- finish reading methods section
