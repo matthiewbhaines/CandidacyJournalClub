@@ -2,8 +2,8 @@
 
 ## Videos
 These two videos help explain the basics of linear mixed model effects, which is used in the GWAS study (Hwang et al., 2018)
-[Linear Mixed Effects Models Part 1](https://youtu.be/4bGG02Jsjyc?si=arIfnKoy4flEEKr7)
-[Linear Mixed Effects Models Part 2](https://youtu.be/oI1_SV1Rpfc?si=jwCxerCHPpmoMvBW)
+[Linear Mixed Effects Models Part 1](https://youtu.be/4bGG02Jsjyc?si=arIfnKoy4flEEKr7)  
+[Linear Mixed Effects Models Part 2](https://youtu.be/oI1_SV1Rpfc?si=jwCxerCHPpmoMvBW)  
 
 
 ## Websites
