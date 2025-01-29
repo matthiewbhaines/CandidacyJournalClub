@@ -10,9 +10,14 @@ bibliography: MyLibrary.bib
   1. present @HwangEtAl+shortyear as a journal club to the joint Simons-Cooperstone labs 
 
 ## Present:   
-  1. Read the papers, *describe* the general methodologies used and data presented, 
-  and *summarize* it and its findings 
-  2. What do these findings *mean* for your own research?
+  1. Read the papers, *describe* the **general methodologies** used and **data** presented, 
+  and *summarize* it and its **findings** 
+  2. What do these findings *mean* for **your own** research?
+  
+  From Jess:  
+  Hi Matthiew – I’d like to see you select one of the two papers I asked you to read and create a journal club like presentation describing what is done in the paper, and **highlighting how this work is relevant to your research**. I was you to understand the *basics of their methods* and the *implications of their findings*. You can focus on the coffee relevant parts of the paper to make it more manageable. You and Chris can think together about what a reasonable timeline to put this together would be.
+
+I’m concerned there are some **fundamentals about genetic control of bitterness perception (including basics about what a gene is, what genetic variation really means, what a bitter receptor is)** as well as what **implication** this has for your project and how you attempt to control for this in your studies. I’d like to be sure this is something you are understanding moving forward.
   
 # Outline:
 ## Intro/Background  
@@ -31,7 +36,7 @@ bibliography: MyLibrary.bib
 
 ### 3. describe other's responses  
 
-- Previous GWAS (@Hansen2006) replicated association between *TAS2R38* and PROP perception  
+- Previous GWAS (@Reed2010) replicated association between *TAS2R38* and PROP perception  
   + and identified a SNP within *TAS2R19*: accounting for 5.8% of variance in quinine perception  
   + did not find loci for caffeine, SOA, or proposed second locus for PTC/PROP, suggested/proposed signals on chromosomes 5 and 16  
   
@@ -57,19 +62,49 @@ bibliography: MyLibrary.bib
 ![**Figure 1**](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6e2a/3531285/2e868bea85f6/pcbi.1002822.g001.jpg)
 
 - identify common genetic variants with small effect sizes (lower right of figure)
-  + these variants may have been underpowered in the previous GWAS study (@HansenEtAl+shortyear)
+  + these variants may have been underpowered in the previous GWAS study (@Hansen2006)
 
 ## Methods  
 ### Taste Perception
 - described in @Hansen2006  
+- presented 5 bitter samples with reps
+  - $2*10^{-4}\ M$ SOA
+  - $1.81*10^{-4}\ M$ quinine HCl
+  - $0.050 \ M$ caffeine
+  - $6.0*10^{-4}\ M$ PROP
+  - $4.99*10^{-6}\ M$ denatonium benzoate
+  - same order presentation for all participants
+- swish and spit after 5 s, rate on LMS
+- bitter scores were square root transformed then converted to z-scores
 
 ### GWAS
 - described in @HwangEtAl+shortyear
-- supplemental underpinings of GWAS from @BushMoore+shortyear
+  - supplemental underpinings of GWAS from @BushMoore+shortyear
+- 1999 Caucasians from Europe, including twins and siblings
+  + this is an increase in sample size from @Hansen2006 by 40%
+- used p < $5 * 10^{-8}$ for genome wide significance
+  + used a Bonferroni corrected p < $1*10^{-8}$
+  
+  
+#### Modeling
+- linear mixed model
+  + covariates (fixed effects): age, sex, ear infection history, first 5 PC from genotype
+  + used additive model (cf. @BushMoore+shortyear)
+
+  
+- bivariate analysis can complement univariate analysis
+  + can enhance the strength of a SNP association, but not effect size @HwangEtAl+shortyear
+
+- variance explained by SNP was calculated as $2* MAF* (1-MAF)* \beta^2$
+
+#### Functional annotation of identified SNPs
+- functional annotation can be used to identify any potential roles of the identified SNPs
+  + could be used to identify/develop mechanistic hypotheses in understanding variance in taste perception based on the identified/associates SNPs
 
 ## Results  
 ## Discussion
-### Implications of my research
+### Implications of *their* research
+### Implications of *my* research
 ## Conclusions
 
 # Notes
