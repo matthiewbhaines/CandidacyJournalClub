@@ -20,27 +20,42 @@ bibliography: MyLibrary.bib
 I’m concerned there are some **fundamentals about genetic control of bitterness perception (including basics about what a gene is, what genetic variation really means, what a bitter receptor is)** as well as what **implication** this has for your project and how you attempt to control for this in your studies. I’d like to be sure this is something you are understanding moving forward.
   
 # Outline:
-## Intro/Background  
-### 1. describe a problem  
+## PROP Case Study
+- TAS2R38, chromosome 7 (Figure 1, @Reed2010)
+- 3 SNPs (Robino 2022 [add to MyLibrary.bib])
+  + PAV haplotype = "taster"
+  + AVI haplotype = "nontaster"
+- SNP rs10246939
+  + Genick 2011 [add to MyLibrary.bib]
+  + explains ~50% (which) variance in detection thresholds
+  + Genick 2011 Fig 4, Fig 7
+- Previous GWAS (@Reed2010) showed signal at TAS2R38 (rs10246939)
+  + also showed TAS2R19 for quinine on chromosome 12
+  + NS for caffeine/SOA
+  + no other proposed loci for PROP on chromosomes 5 or 16
+  
+## @HwangEtAl+shortyear
+### Intro/Background  
+#### 1. describe a problem  
 
 - bitterness is a basic taste, but isn't perceived the same way for everyone  
 - 36-73% of bitterness perception is due to genetics (@HwangEtAl+shortyear)  
   + *what are some explanations of variability outside of genetic reasons?*
   
-### 2. describe a question  
+#### 2. describe a question  
 
 - PROP bitterness has been implicated in fat perception (@tepperFatPerceptionRelated1997)  
 - PTC related to diseases (@Guo_Reed_2001), immune system, and surgical outcome of severe rhinosinusitis (@HwangEtAl+shortyear)  
 - want to understand "underlying genetic variation that leads to individual differences in bitter perception"
   + this could have implications in "personalized medicine" (@HwangEtAl+shortyear; @BushMoore+shortyear)
 
-### 3. describe other's responses  
+#### 3. describe other's responses  
 
 - Previous GWAS (@Reed2010) replicated association between *TAS2R38* and PROP perception  
   + and identified a SNP within *TAS2R19*: accounting for 5.8% of variance in quinine perception  
   + did not find loci for caffeine, SOA, or proposed second locus for PTC/PROP, suggested/proposed signals on chromosomes 5 and 16  
   
-### 4. explain a need for a new/novel approach  
+#### 4. explain a need for a new/novel approach  
 
 - use multivariate association analysis to find common genetic variants (MAF $\ge$ 5%) with small effects  
 - can identify *pleiotropic* genetic variants
@@ -58,14 +73,14 @@ I’m concerned there are some **fundamentals about genetic control of bitternes
   + 1C: minor allele has similar effects, $\uparrow$ T1 (Y) and $\uparrow$ T2 (X)
     + no greater separation with bivariate analysis than would get with univariate
     
-### 5. say your aim  
+#### 5. say your aim  
 ![**Figure 1**](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6e2a/3531285/2e868bea85f6/pcbi.1002822.g001.jpg)
 
 - identify common genetic variants with small effect sizes (lower right of figure)
   + these variants may have been underpowered in the previous GWAS study (@Hansen2006)
 
-## Methods  
-### Taste Perception
+### Methods  
+#### Taste Perception
 - described in @Hansen2006  
 - presented 5 bitter samples with reps
   - $2*10^{-4}\ M$ SOA
@@ -77,7 +92,7 @@ I’m concerned there are some **fundamentals about genetic control of bitternes
 - swish and spit after 5 s, rate on LMS
 - bitter scores were square root transformed then converted to z-scores
 
-### GWAS
+#### GWAS
 - described in @HwangEtAl+shortyear
   - supplemental underpinings of GWAS from @BushMoore+shortyear
 - 1999 Caucasians from Europe, including twins and siblings
@@ -86,7 +101,7 @@ I’m concerned there are some **fundamentals about genetic control of bitternes
   + used a Bonferroni corrected p < $1*10^{-8}$
   
   
-#### Modeling
+##### Modeling
 - linear mixed model
   + covariates (fixed effects): age, sex, ear infection history, first 5 PC from genotype
   + used additive model (cf. @BushMoore+shortyear)
@@ -97,15 +112,21 @@ I’m concerned there are some **fundamentals about genetic control of bitternes
 
 - variance explained by SNP was calculated as $2* MAF* (1-MAF)* \beta^2$
 
-#### Functional annotation of identified SNPs
+##### Functional annotation of identified SNPs
 - functional annotation can be used to identify any potential roles of the identified SNPs
   + could be used to identify/develop mechanistic hypotheses in understanding variance in taste perception based on the identified/associates SNPs
 
-## Results  
-## Discussion
-### Implications of *their* research
-### Implications of *my* research
-## Conclusions
+### Results  
+- *focus on PROP and caffeine* 
+
+### Discussion
+
+#### Implications of *their* research
+
+#### Implications of *my* research
+
+### Conclusions
+
 
 # Notes
 - read references 26 and 29 in Hwang et al
