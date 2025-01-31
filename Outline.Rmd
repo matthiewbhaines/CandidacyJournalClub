@@ -7,7 +7,7 @@ bibliography: MyLibrary.bib
 ---
 
 # Objective:  
-  1. present @HwangEtAl+shortyear as a journal club to the joint Simons-Cooperstone labs 
+  1. present @Hwang2018 as a journal club to the joint Simons-Cooperstone labs 
 
 ## Present:   
   1. Read the papers, *describe* the **general methodologies** used and **data** presented, 
@@ -21,33 +21,42 @@ I’m concerned there are some **fundamentals about genetic control of bitternes
   
 # Outline:
 ## PROP Case Study
-- TAS2R38, chromosome 7 (Figure 1, @Reed2010)
+![PROP signal, chromosome 7. Figure 1 from @Reed2010](https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/hmg/19/21/10.1093_hmg_ddq324/1/ddq32401.jpeg?Expires=1741366531&Signature=BY8XsJBxFQKh~cPYTagz7iRR5w-pVch9GBHdvImEDK~Dn9GJlHU9o~UXzd1rT6VQNDanx1PWqKq09ubsyke9EDCVe1-rhsBCvTWrpOUk8ev0RiuRAsoY4KePIEqOrOrSP0R5yD1iBdjX1nLBqRtyC7PT3xpiC80YreDZYRVAm9NQ41bgoMCf4wElbu5IK3wkdbrxlDZrlmxORdbc7oZzWx6tuod1kP10cFftFhe9QGfj~th1ueT2R5wclWhk0f97t3QxN8Rafux8OXhWhsNfpnSll6PjxRcU1KJiu8KRjCfajzKOYJSUOrfxxVfLmkxK6VLo2-ylXEAjCGDDSZLygA__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA)
+
 - 3 SNPs (Robino 2022 [add to MyLibrary.bib])
   + PAV haplotype = "taster"
   + AVI haplotype = "nontaster"
 - SNP rs10246939
-  + Genick 2011 [add to MyLibrary.bib]
   + explains ~50% (which) variance in detection thresholds
-  + Genick 2011 Fig 4, Fig 7
+  + MAF 46% (@Genick2011)
+    + Chris mentioned that because it is "ubiquitous", there is generally some associated advantage to this SNP as to why it wasn't slowly removed through natural selection
+
+![Figure 4 from @Genick2011. Panels C and D how the relationship between PROP sensitivity and genotype at rs10246939](https://storage.googleapis.com/plos-corpus-prod/10.1371/journal.pone.0027745/1/pone.0027745.g004.PNG_L?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=wombat-sa%40plos-prod.iam.gserviceaccount.com%2F20250131%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20250131T170127Z&X-Goog-Expires=86400&X-Goog-SignedHeaders=host&X-Goog-Signature=6944a8b0edf3d7315d43fe8765f40378785709602773f91deaf15215d3eb35cb68267241fabd71e0aff0835a534addc2ec8461806357f963601ee71eeb8aff336ce13a1b5051a282982b4d571a09aa531c057afe7c334230f5b581807626a9096635521754787276b152795bdcebeece4f91c955383ba4d048563150361aaa00247c3c8f9661d5a108c5bc0c09c31651948c270a37a0b3ea375d6b50fe07c14fece94fb4e706163d9ec9e54f6280c3127f20aac195825a130dfc3f8a96c19453aa36a03fd30199302f540d9ca52fbba3c5801eafb901d6849ee1adfc49a4d87566f2cd5bbcbca9d0194e4d294b8f20a94147a691833d865f98f3142a1e515e46)  
+
+\
+
+![Figure 7 from @Genick2011 showing the average perceived gLMS intensity ($\pm$) SEM for each genotype oat SNP rs10246939](https://storage.googleapis.com/plos-corpus-prod/10.1371/journal.pone.0027745/1/pone.0027745.g007.PNG_L?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=wombat-sa%40plos-prod.iam.gserviceaccount.com%2F20250131%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20250131T170921Z&X-Goog-Expires=86400&X-Goog-SignedHeaders=host&X-Goog-Signature=885ace5a7ae1c8666d61aae512dcdd4ced49a8ba73ba9389115df2176305a7e488b55c39f88dee6cd54c702a253eb303417b41100122b8fe81a6de72617dd46e9bc2ebf031b85b15d5bcaf2c3a01f30945b9b11973341f6b195e0365c4c3610588adb8603dc141c556ff359b2923d1854ac7d103b052c1bbb462155608cefe0ec9c754e8dcae177abf25a94379efbf470c10ed53827ff11d0d009e582291ea444388410a20cc9df638d28d7fca608ad822ea44e415748f6c0b3260bb8ac04263ba94047b9d074d1e17cdec88fa8a63f5d8b5d83a7a11f92068d2bdcde717140fdd51401f7088fd1f5a30774dfce7c9e228a91d81d25b740ebc90bf2228291add)  
+
+
 - Previous GWAS (@Reed2010) showed signal at TAS2R38 (rs10246939)
   + also showed TAS2R19 for quinine on chromosome 12
   + NS for caffeine/SOA
   + no other proposed loci for PROP on chromosomes 5 or 16
   
-## @HwangEtAl+shortyear
+## @Hwang2018
 ### Intro/Background  
 #### 1. describe a problem  
 
 - bitterness is a basic taste, but isn't perceived the same way for everyone  
-- 36-73% of bitterness perception is due to genetics (@HwangEtAl+shortyear)  
+- 36-73% of bitterness perception is due to genetics (@Hwang2018)  
   + *what are some explanations of variability outside of genetic reasons?*
   
 #### 2. describe a question  
 
-- PROP bitterness has been implicated in fat perception (@tepperFatPerceptionRelated1997)  
-- PTC related to diseases (@Guo_Reed_2001), immune system, and surgical outcome of severe rhinosinusitis (@HwangEtAl+shortyear)  
+- PROP bitterness has been implicated in fat perception (@Tepper1997)  
+- PTC related to diseases (@Guo2001), immune system, and surgical outcome of severe rhinosinusitis (@Hwang2018)  
 - want to understand "underlying genetic variation that leads to individual differences in bitter perception"
-  + this could have implications in "personalized medicine" (@HwangEtAl+shortyear; @BushMoore+shortyear)
+  + this could have implications in "personalized medicine" (@Hwang2018; @Bush2012)
 
 #### 3. describe other's responses  
 
@@ -93,8 +102,8 @@ I’m concerned there are some **fundamentals about genetic control of bitternes
 - bitter scores were square root transformed then converted to z-scores
 
 #### GWAS
-- described in @HwangEtAl+shortyear
-  - supplemental underpinings of GWAS from @BushMoore+shortyear
+- described in @Hwang2018
+  - supplemental underpinings of GWAS from @Bush2012
 - 1999 Caucasians from Europe, including twins and siblings
   + this is an increase in sample size from @Hansen2006 by 40%
 - used p < $5 * 10^{-8}$ for genome wide significance
@@ -104,11 +113,11 @@ I’m concerned there are some **fundamentals about genetic control of bitternes
 ##### Modeling
 - linear mixed model
   + covariates (fixed effects): age, sex, ear infection history, first 5 PC from genotype
-  + used additive model (cf. @BushMoore+shortyear)
+  + used additive model (cf. @Bush2012)
 
   
 - bivariate analysis can complement univariate analysis
-  + can enhance the strength of a SNP association, but not effect size @HwangEtAl+shortyear
+  + can enhance the strength of a SNP association, but not effect size @Hwang2018
 
 - variance explained by SNP was calculated as $2* MAF* (1-MAF)* \beta^2$
 
