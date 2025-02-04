@@ -18,24 +18,47 @@ bibliography: MyLibrary.bib
   Hi Matthiew – I’d like to see you select one of the two papers I asked you to read and create a journal club like presentation describing what is done in the paper, and **highlighting how this work is relevant to your research**. I was you to understand the *basics of their methods* and the *implications of their findings*. You can focus on the coffee relevant parts of the paper to make it more manageable. You and Chris can think together about what a reasonable timeline to put this together would be.
 
 I’m concerned there are some **fundamentals about genetic control of bitterness perception (including basics about what a gene is, what genetic variation really means, what a bitter receptor is)** as well as what **implication** this has for your project and how you attempt to control for this in your studies. I’d like to be sure this is something you are understanding moving forward.
+
+  From Jess:  
+  Hi Matthiew – good to hear back about this – I was thinking to follow up about this recently so your ears must have been burning. What I’d like you to understand is:
+
+- What is a SNP
+- What can allelic variation in a SNP (or indels) lead to
+- How conceptually variants in sequence could lead to differences in bitter perception
+- That you understand the central dogma of biology at least in concept
+ 
+
+I’m less worried that you understand how to do functional annotation, just that you get the sort of concept of how you would. How is it that you could confirm that a particular variant leads to a functional outcome?
   
 # Outline:
 ## PROP Case Study
+
+Definitions
+- can use PROP as example
+
 ![PROP signal, chromosome 7. Figure 1 from @Reed2010](https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/hmg/19/21/10.1093_hmg_ddq324/1/ddq32401.jpeg?Expires=1741366531&Signature=BY8XsJBxFQKh~cPYTagz7iRR5w-pVch9GBHdvImEDK~Dn9GJlHU9o~UXzd1rT6VQNDanx1PWqKq09ubsyke9EDCVe1-rhsBCvTWrpOUk8ev0RiuRAsoY4KePIEqOrOrSP0R5yD1iBdjX1nLBqRtyC7PT3xpiC80YreDZYRVAm9NQ41bgoMCf4wElbu5IK3wkdbrxlDZrlmxORdbc7oZzWx6tuod1kP10cFftFhe9QGfj~th1ueT2R5wclWhk0f97t3QxN8Rafux8OXhWhsNfpnSll6PjxRcU1KJiu8KRjCfajzKOYJSUOrfxxVfLmkxK6VLo2-ylXEAjCGDDSZLygA__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA)
 
-- 3 SNPs (Robino 2022 [add to MyLibrary.bib])
+- 3 SNPs (@Robino2022)
   + PAV haplotype = "taster"
+    + PAV refers to amino acids proline-alanine-valine
   + AVI haplotype = "nontaster"
+    + AVI refers to amino acids alanine-valine-isoleucine
+  + haplotype refers to a group of SNPS that usually reside near each other on a chromosome ([genome.gov](https://www.genome.gov/genetics-glossary/haplotype))  
 - SNP rs10246939
-  + explains ~50% (which) variance in detection thresholds
+  + explains ~50% of observed variance in detection thresholds (@Genick2011)
   + MAF 46% (@Genick2011)
     + Chris mentioned that because it is "ubiquitous", there is generally some associated advantage to this SNP as to why it wasn't slowly removed through natural selection
+- other factors influencing PROP perception (@Robino2022)
+  + fungiform pappilae count/density
+  + age
+  + gender
+  + salivary flow rate and protein composition
 
-![Figure 4 from @Genick2011. Panels C and D how the relationship between PROP sensitivity and genotype at rs10246939](https://storage.googleapis.com/plos-corpus-prod/10.1371/journal.pone.0027745/1/pone.0027745.g004.PNG_L?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=wombat-sa%40plos-prod.iam.gserviceaccount.com%2F20250131%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20250131T170127Z&X-Goog-Expires=86400&X-Goog-SignedHeaders=host&X-Goog-Signature=6944a8b0edf3d7315d43fe8765f40378785709602773f91deaf15215d3eb35cb68267241fabd71e0aff0835a534addc2ec8461806357f963601ee71eeb8aff336ce13a1b5051a282982b4d571a09aa531c057afe7c334230f5b581807626a9096635521754787276b152795bdcebeece4f91c955383ba4d048563150361aaa00247c3c8f9661d5a108c5bc0c09c31651948c270a37a0b3ea375d6b50fe07c14fece94fb4e706163d9ec9e54f6280c3127f20aac195825a130dfc3f8a96c19453aa36a03fd30199302f540d9ca52fbba3c5801eafb901d6849ee1adfc49a4d87566f2cd5bbcbca9d0194e4d294b8f20a94147a691833d865f98f3142a1e515e46)  
+![Figure 4 from @Genick2011. Panels C and D how the relationship between PROP sensitivity and genotype at rs10246939](C:/Users/Matthiew/Documents/Research/Candidacy/JournalClub/CandidacyJournalClub/Genick2011-Fig4.png)  
 
 \
 
-![Figure 7 from @Genick2011 showing the average perceived gLMS intensity ($\pm$) SEM for each genotype oat SNP rs10246939](https://storage.googleapis.com/plos-corpus-prod/10.1371/journal.pone.0027745/1/pone.0027745.g007.PNG_L?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=wombat-sa%40plos-prod.iam.gserviceaccount.com%2F20250131%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20250131T170921Z&X-Goog-Expires=86400&X-Goog-SignedHeaders=host&X-Goog-Signature=885ace5a7ae1c8666d61aae512dcdd4ced49a8ba73ba9389115df2176305a7e488b55c39f88dee6cd54c702a253eb303417b41100122b8fe81a6de72617dd46e9bc2ebf031b85b15d5bcaf2c3a01f30945b9b11973341f6b195e0365c4c3610588adb8603dc141c556ff359b2923d1854ac7d103b052c1bbb462155608cefe0ec9c754e8dcae177abf25a94379efbf470c10ed53827ff11d0d009e582291ea444388410a20cc9df638d28d7fca608ad822ea44e415748f6c0b3260bb8ac04263ba94047b9d074d1e17cdec88fa8a63f5d8b5d83a7a11f92068d2bdcde717140fdd51401f7088fd1f5a30774dfce7c9e228a91d81d25b740ebc90bf2228291add)  
+![Figure 7 from @Genick2011 showing the average perceived gLMS intensity ($\pm$) SEM for each genotype oat SNP rs10246939](C:/Users/Matthiew/Documents/Research/Candidacy/JournalClub/CandidacyJournalClub/Genick2011-Fig7.png)  
 
 
 - Previous GWAS (@Reed2010) showed signal at TAS2R38 (rs10246939)
@@ -91,6 +114,9 @@ I’m concerned there are some **fundamentals about genetic control of bitternes
 ### Methods  
 #### Taste Perception
 - described in @Hansen2006  
+  + this paper doesn't explicitly say how much volume each sample was
+  + previous GWAS (@Reed2010) used 1 ML solution
+    + implications/limitations of this?
 - presented 5 bitter samples with reps
   - $2*10^{-4}\ M$ SOA
   - $1.81*10^{-4}\ M$ quinine HCl
