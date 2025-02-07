@@ -63,12 +63,91 @@ From @Robino2022:
   
 ## Previous GWAS study (@Reed2010)
 -   Previous GWAS showed signal at TAS2R38 (rs10246939)
-    -   also showed TAS2R19 for quinine on chromosome 12
-    -   NS for caffeine/SOA
-    -   no other proposed loci for PROP on chromosomes 5 or 16
-
 \
 ![PROP signal, chromosome 7. Figure 1 from @Reed2010](https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/hmg/19/21/10.1093_hmg_ddq324/1/ddq32401.jpeg?Expires=1741366531&Signature=BY8XsJBxFQKh~cPYTagz7iRR5w-pVch9GBHdvImEDK~Dn9GJlHU9o~UXzd1rT6VQNDanx1PWqKq09ubsyke9EDCVe1-rhsBCvTWrpOUk8ev0RiuRAsoY4KePIEqOrOrSP0R5yD1iBdjX1nLBqRtyC7PT3xpiC80YreDZYRVAm9NQ41bgoMCf4wElbu5IK3wkdbrxlDZrlmxORdbc7oZzWx6tuod1kP10cFftFhe9QGfj~th1ueT2R5wclWhk0f97t3QxN8Rafux8OXhWhsNfpnSll6PjxRcU1KJiu8KRjCfajzKOYJSUOrfxxVfLmkxK6VLo2-ylXEAjCGDDSZLygA__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA)
 \
+
+# @Hwang2018
+
+## Introduction  
+
+-   bitterness is a basic taste, but isn't perceived the same way for everyone
+-   36-73% of bitterness perception is due to genetics (@Hwang2018)
+-   factors like fungiform pappilae count, salivary flow rate, saliva composition, age and gender can influence taste perception  
+\
+-   PROP bitterness has been implicated in fat perception (@Tepper1997)\
+-   PTC related to diseases (@Guo2001), immune system, and surgical outcome of severe rhinosinusitis (@Hwang2018)  
+-   want to understand "underlying genetic variation that leads to individual differences in bitter perception"
+    -   this could have implications in "personalized medicine" (@Hwang2018; @Bush2012)  
+\
+-   Previous GWAS (@Reed2010) replicated association between *TAS2R38* and PROP perception
+    -   and identified a SNP within *TAS2R19*: accounting for 5.8% of variance in quinine perception  
+    -   did not find loci for caffeine, SOA, or proposed second locus for PTC/PROP, suggested/proposed signals on chromosomes 5 and 16  
+\
+-   use multivariate association analysis to find common genetic variants (MAF $\ge$ 5%) with small effects\
+-   can identify *pleiotropic* genetic variants
+-   can identify variants with only one of the correlated phenotypes
+-   using MV GWAS can find associations that didn't reach significance in univariate analysis  
+\
+\
+![**Figure 1**](https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs12864-018-5058-2/MediaObjects/12864_2018_5058_Fig1_HTML.png?as=webp)
+\
+-   1A: spread on y axis, not on x axis
+    -   only T1 (y axis) is associated with variant (non-pleiotropic)
+    -   better separation seen in 2D (practice with the pencil test from high school math class)
+-   1B: spread on y and x axis
+    -   minor allele has opposing effects, $\uparrow$ T1 (Y) and $\downarrow$ T2 (X)
+    -   starting to see the spread on y and x axes, especially when combined
+-   1C: minor allele has similar effects, $\uparrow$ T1 (Y) and $\uparrow$ T2 (X)
+    -   no greater separation with bivariate analysis than would get with univariate
+\
+\
+![**Figure 1**](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6e2a/3531285/2e868bea85f6/pcbi.1002822.g001.jpg)  
+\
+\
+-   identify common genetic variants with small effect sizes (lower right of figure)
+    -   these variants may have been underpowered in the previous GWAS study (@Hansen2006)  
+
+### Methods
+
+#### Taste Perception
+
+-   described in @Hansen2006
+    -   this paper doesn't explicitly say how much volume each sample was
+    -   previous GWAS (@Reed2010) used 1 ML solution
+        -   implications/limitations of this?
+-   presented 5 bitter samples with reps
+    -   $2*10^{-4}\ M$ SOA
+    -   $1.81*10^{-4}\ M$ quinine HCl
+    -   $0.050 \ M$ caffeine
+    -   $6.0*10^{-4}\ M$ PROP
+    -   $4.99*10^{-6}\ M$ denatonium benzoate
+    -   same order presentation for all participants
+-   swish and spit after 5 s, rate on LMS
+-   bitter scores were square root transformed then converted to z-scores
+
+#### GWAS
+
+-   described in @Hwang2018
+    -   supplemental underpinings of GWAS from @Bush2012
+-   1999 Caucasians from Europe, including twins and siblings
+    -   this is an increase in sample size from @Hansen2006 by 40%
+-   used p \< $5 * 10^{-8}$ for genome wide significance
+    -   used a Bonferroni corrected p \< $1*10^{-8}$
+
+##### Modeling
+
+-   linear mixed model
+    -   covariates (fixed effects): age, sex, ear infection history, first 5 PC from genotype
+    -   used additive model (cf. @Bush2012)
+-   bivariate analysis can complement univariate analysis
+    -   can enhance the strength of a SNP association, but not effect size @Hwang2018
+-   variance explained by SNP was calculated as $2* MAF* (1-MAF)* \beta^2$
+
+##### Functional annotation of identified SNPs
+
+-   functional annotation can be used to identify any potential roles of the identified SNPs
+    -   could be used to identify/develop mechanistic hypotheses in understanding variance in taste perception based on the identified/associates SNPs
+
 
 # References
