@@ -1,0 +1,74 @@
+---
+title: "Journal Club Notes"
+output: 
+  html_document:
+    keep-md: true
+bibliography: MyLibrary.bib
+---
+
+# Outline:
+
+1.  review some basic taste biology and genetics  
+2.  review and critique @Hwang2018  
+
+# PROP as a case study  
+
+## Discovering PROP  
+
+-   "problem" of variability in bitter taste perception started in 1932 (@Genick2011)  
+-   Arthur Fox reported inter-subject variability in PTC perception (@Genick2011)  
+    -   discrete categories of "taster" (sensitive) and "non-taster" (in-sensitive)  
+-   PTC is toxic (not great for human science), so PROP has widely replaced PTC  
+    -   PROP acts in a similar manner to PTC
+-   both PROP and PTC are agonists of *TAS2R38*
+\
+\
+![Chemical Structures of PROP and PTC](C:/Users/Matthiew/Documents/Research/Candidacy/JournalClub/CandidacyJournalClub/PROP-PTC.jpeg)
+\
+
+## Biology Review
+- "taster status" of PROP is the result of your **phenotype**
+  + the expression of a certain trait
+- phenotype is the result of your **genotype**  
+  + the genetic make up or specific combination of alleles
+  + alleles are one of the versions of gene  
+\
+\
+![Genotype versus Phenotype](C:/Users/Matthiew/Documents/Research/Candidacy/JournalClub/CandidacyJournalClub/Genotype.jpg)
+[from the **National Human Genome Research Institute**](https://www.genome.gov/genetics-glossary/genotype)
+\ 
+  
+## Back to PROP
+\
+![@Genick2011 Figure 7](C:/Users/Matthiew/Documents/Research/Candidacy/JournalClub/CandidacyJournalClub/Genick2011-Fig7.png)
+![Figure 4 from @Genick2011. Panels C and D how the relationship between PROP sensitivity and genotype at rs10246939](C:/Users/Matthiew/Documents/Research/Candidacy/JournalClub/CandidacyJournalClub/Genick2011-Fig4.png)
+\
+
+- can see the alleles here are **T** and **C**    
+- rs10246939 (on chromosome 7)
+  + explains ~50% of variance seen in detection thresholds (@Genick2011)  
+  + this SNP here has a MAF of ~46% (@Genick2011)
+- this is at a **SNP**, or single nucleotide polymorphism  
+  + a SNP is a single change in a base pair, resulting in genetic variation  
+  + usually high frequency (@Bush2012)  
+  + *mutations* are generally reserved for low frequency genetic variation (@Bush2012)
+
+## Other factors influencing PROP sensitivity   
+From @Robino2022:  
+
+  -   fungiform pappilae count/density
+  -   age
+  -   gender
+  -   salivary flow rate and protein composition
+  
+## Previous GWAS study (@Reed2010)
+-   Previous GWAS showed signal at TAS2R38 (rs10246939)
+    -   also showed TAS2R19 for quinine on chromosome 12
+    -   NS for caffeine/SOA
+    -   no other proposed loci for PROP on chromosomes 5 or 16
+
+\
+![PROP signal, chromosome 7. Figure 1 from @Reed2010](https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/hmg/19/21/10.1093_hmg_ddq324/1/ddq32401.jpeg?Expires=1741366531&Signature=BY8XsJBxFQKh~cPYTagz7iRR5w-pVch9GBHdvImEDK~Dn9GJlHU9o~UXzd1rT6VQNDanx1PWqKq09ubsyke9EDCVe1-rhsBCvTWrpOUk8ev0RiuRAsoY4KePIEqOrOrSP0R5yD1iBdjX1nLBqRtyC7PT3xpiC80YreDZYRVAm9NQ41bgoMCf4wElbu5IK3wkdbrxlDZrlmxORdbc7oZzWx6tuod1kP10cFftFhe9QGfj~th1ueT2R5wclWhk0f97t3QxN8Rafux8OXhWhsNfpnSll6PjxRcU1KJiu8KRjCfajzKOYJSUOrfxxVfLmkxK6VLo2-ylXEAjCGDDSZLygA__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA)
+\
+
+# References
