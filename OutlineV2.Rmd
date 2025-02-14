@@ -85,8 +85,7 @@ From @Robino2022:
 -   Bitterness is a basic taste, but isn't perceived the same way for everyone
     -   36-73% of bitterness perception is due to genetics^6^
 -   Other factors can influence taste perception^4^  
--   PROP bitterness has been implicated in fat perception^7^
--   PTC related to diseases^8^, immune system, and surgical outcome of severe rhinosinusitis^6^
+-   PTC related to and surgical outcome of severe rhinosinusitis^6^
 -   Want to understand "underlying genetic variation that leads to individual differences in bitter perception"
     -   this could have implications in "personalized medicine"^3,6^  
 
@@ -112,7 +111,7 @@ other suggested/proposed signals for PTC/PROP on chromosomes 5 and 16
 -   Use **multivariate association** analysis to find common genetic variants (MAF $\ge$ 5%) with small effects
 -   Can identify **pleiotropic** genetic variants
     + one gene controls expression of multiple/several phenotypic traits
-    + ex. sickle cell disease^9^
+    + ex. sickle cell disease^7^
 -   Using MV GWAS can find associations that didn't reach significance in univariate analysis
     + does not change effect size^6^
 
@@ -143,7 +142,6 @@ practice with the pencil test from high school math class
   + the goal/outcome is to identify biological underpinnings of disease susceptibility, predict at-risk groups, and develop new prevention/treatments
 - Tests each SNP for an independent association to a phenotype
 - Is not necessarily hypothesis driven
-  + *replications might be*
 
 ## How is GWAS used in @Hwang2018
 
@@ -153,7 +151,7 @@ practice with the pencil test from high school math class
 :::
 :::{.column}
 -   Identify common genetic variants with small effect sizes (lower right of figure)
-    -   these variants may have been underpowered in the previous GWAS study^5,10^  
+    -   these variants may have been underpowered in the previous GWAS study^5,8^  
 -   1999 Caucasians from Europe, including twins and siblings
     -   this is an increase in sample size from @Hansen2006 by 40%
 -   Used a Bonferroni corrected p \< $1*10^{-8}$
@@ -190,7 +188,7 @@ Variance explained by SNP was calculated as $2* MAF* (1-MAF)* \beta^2$
     -   0.00499 mM denatonium benzoate
     -   same order presentation for all participants
 -   Previous GWAS^5^ used 1 mL solution
--   Swish and spit after 5 s, rate on LMS^10^
+-   Swish and spit after 5 s, rate on LMS^8^
 -   Bitter scores were square root transformed then converted to z-scores
 
 ::: notes
@@ -260,7 +258,7 @@ Variance explained by SNP was calculated as $2* MAF* (1-MAF)* \beta^2$
 :::::::::::::: {.columns}
 :::{.column}
 - Peak at rs2597979 (chromosome 12; p = $4.2*10^{-8}$)
-  - provided an independent replication of this SNP with caffeine^11^
+  - provided an independent replication of this SNP with caffeine^9^
 - Caffeine-rs2597979 association remained after conditional analysis with rs10772420 (top quinine SNP, $r^2$ = 0.24)
   - explained 1.91% trait variance
 
@@ -286,8 +284,39 @@ Variance explained by SNP was calculated as $2* MAF* (1-MAF)* \beta^2$
 (from Table S11) (mTQL = methylation quantitative trait loci; eQTL = expression quantitative trait loci)
 ::: 
 
-## What I can learn from this paper
+# What I can learn from this paper
 
+## 100% - 2% = 98%
+- rs2597979 only explained ~2% of variance
+- 98% of variance *not* explained
+- Other sources of variance could be
+  + genetic
+  + nongenetic
+- This used a white European population
+  + other races/ethnicites will have different genetic variances
+
+## Bitter is not a simple taste
+:::::::::::::: {.columns}
+:::{.column}
+- So far, ~25 bitter taste receptors (TAS2R's) have been identified^10^
+- Not every compound activates the same receptor
+:::
+::: {.column}
+```{r}
+library(readxl)
+library(knitr)
+
+Meyerhof2010AgonistTable <- read_excel("Meyerhof2010AgonistTable.xlsx")
+kable(Meyerhof2010AgonistTable, caption = "#, previously known agonist confirmed in the present study; §, previously known agonist not confirmed in the present study")
+```
+:::
+::::::::::::::
+
+## Coffee is not simple, either
+- Caffeine predicts 10-33% of the bitterness in coffee (Guo, French paper)
+- Bitter roast products (degredation of chlorogenic acids) contribute to bitterness
+  + these are not fully known/elucidated
+- Keep bitterness variability in mind when conducting, analyzing, and making conclusions about research
 
 ## Appendix
 ![@Genick2011](C:/Users/Matthiew/Documents/Research/Candidacy/JournalClub/CandidacyJournalClub/Genick2011-Fig7.png)
