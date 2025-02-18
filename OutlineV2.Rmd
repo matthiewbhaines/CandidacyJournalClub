@@ -1,10 +1,11 @@
 ---
-title: "Journal Club Outline"
+title: "Journal Club"
+date: "March 14, 2025"
 author: "Matthiew Haines"
 output: 
   powerpoint_presentation:
       slide_level: 2
-     # reference_doc: 2022-CFAES-PPT-Template-2.pptx
+      reference_doc: CFAESTemplateForR.pptx
 bibliography: MyLibrary.bib
 ---
 
@@ -198,15 +199,6 @@ Variance explained by SNP was calculated as $2* MAF* (1-MAF)* \beta^2$
 - $4.99 * 10^{-6}$ M DB
 :::
 
-## Functional annotation of identified SNPs
-
--   Functional annotation can be used to identify any potential roles of the identified SNPs
-    -   could be used to identify/develop mechanistic hypotheses in understanding variance in taste perception based on the identified/associates SNPs
-
-::: notes
-*do I need to expand this section?*  
-:::
-
 # Results
 ::: notes
 **Big takeaways**
@@ -269,20 +261,39 @@ Variance explained by SNP was calculated as $2* MAF* (1-MAF)* \beta^2$
 :::
 ::::::::::::::
 
-## Functional Analysis
-- 1.	PROP, quinine, caffeine, and SOA-associated SNPs include missense variants.
-- 2.	PROP, quinine, and DB-associated SNPs are located within conserved region.
-- 3.	Except for caffeine-associated SNPs, all SNPs are in high DNAse hypersensitivity sites.
-- 4.	PROP, SOA, and DB-associated SNPs are inside promoter and/or enhancer regions.
-- 5.	All SNPs may cause regulatory motif change of a protein. 
-- 6.	All SNPs are eQTLs.
-- 7.	Quinine, caffeine, and SOA-associated SNPs are mQTLs.
-- 8.	None of these analyses was performed using taste tissues.
+## Functional Annotation
+- GWAS only provides an association between a SNP and bitterness (or any other trait)
+- Functional annotation can be used to identify any potential roles of the identified SNPs
+  + is this SNP in a coding region?
+  + what gene is this SNP at/near?
 
+## Missense Variants
+:::::::::::::: {.columns}
+:::{.column}
+- rs10772420 (top Quinine SNP), rs2597979 (top Caffeine SNP), and rs10246939 (top PROP SNP) are **missense variants**
+  + missense variants result in an amino acid substitution which could impact the protein's shape, stability, or functionality  
+  
+- T allele $\rightarrow$ AV**I** haplotype $\rightarrow$ non-taster
+- C allele $\rightarrow$ PA**V** haplotype $\rightarrow$ taster
+
+:::
+::: {.column}
+![@Genick2011](C:/Users/Matthiew/Documents/Research/Candidacy/JournalClub/CandidacyJournalClub/Genick2011-Fig7.png)
+
+:::
+::::::::::::: 
 ::: notes
-(Is this important to focus on and understand?)
-(from Table S11) (mTQL = methylation quantitative trait loci; eQTL = expression quantitative trait loci)
-::: 
+T/T = "nontaster" haplotype
+C/C = "taster" haplotype
+:::
+
+## Functional Annotation Results 
+
+- These SNPs reside in functional areas that encode for proteins, regulatory regions or structural, non-coding RNA 
+- rs10772420 and rs10246939 likely have regulatory effect on genes 
+  + rs10772420 $\rightarrow$ TAS2R19 & TAS2R31 
+  + rs 10246939 $\rightarrow$ TAS2R38
+- rs2597979 has an unknown effect on TAS2R31
 
 # What I can learn from this paper
 
@@ -293,33 +304,32 @@ Variance explained by SNP was calculated as $2* MAF* (1-MAF)* \beta^2$
   + genetic
   + nongenetic
 - This used a white European population
-  + other races/ethnicites will have different genetic variances
+  + other races/ethnicities will have different genetic variances
 
 ## Bitter is not a simple taste
-:::::::::::::: {.columns}
-:::{.column}
-- So far, ~25 bitter taste receptors (TAS2R's) have been identified^10^
-- Not every compound activates the same receptor
-:::
-::: {.column}
-```{r}
+```{r, echo=FALSE}
 library(readxl)
 library(knitr)
 
 Meyerhof2010AgonistTable <- read_excel("Meyerhof2010AgonistTable.xlsx")
-kable(Meyerhof2010AgonistTable, caption = "#, previously known agonist confirmed in the present study; §, previously known agonist not confirmed in the present study")
+kable(Meyerhof2010AgonistTable, 
+caption = "#, previously known agonist confirmed in the present study; §, previously known agonist not confirmed in the present study")
 ```
-:::
-::::::::::::::
+
 
 ## Coffee is not simple, either
-- Caffeine predicts 10-33% of the bitterness in coffee (Guo, French paper)
+:::::::::::::: {.columns}
+:::{.column}
+- Caffeine predicts 10-33% of the bitterness in coffee^11^
 - Bitter roast products (degredation of chlorogenic acids) contribute to bitterness
   + these are not fully known/elucidated
 - Keep bitterness variability in mind when conducting, analyzing, and making conclusions about research
 
-## Appendix
-![@Genick2011](C:/Users/Matthiew/Documents/Research/Candidacy/JournalClub/CandidacyJournalClub/Genick2011-Fig7.png)
+:::
+::: {.column}
+![](C:/Users/Matthiew/Documents/Research/Candidacy/JournalClub/CandidacyJournalClub/coffeebeans.jpg)
+:::
+::::::::::::::
 
 # Questions
 
