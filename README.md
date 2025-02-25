@@ -4,7 +4,7 @@
 
 1.  present Hwang et al. (2018) as a journal club to the joint Simons-Cooperstone labs
 
-![screenshot](~/Research/Candidacy/JournalClub/CandidacyJournalClub/res/Hwang18Abstract.png)
+![screenshot](~res/Hwang18Abstract.png)
 
 ### Citation:
 
