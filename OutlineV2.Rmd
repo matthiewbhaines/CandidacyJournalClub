@@ -27,7 +27,7 @@ bibliography: MyLibrary.bib
 
 :::
 ::: {.column}
-![@Behrens2013](C:/Users/Matthiew/Documents/Research/Candidacy/JournalClub/CandidacyJournalClub/PROP-PTC.jpeg)
+![@Behrens2013](C:/Users/Matthiew/Documents/Research/Candidacy/JournalClub/CandidacyJournalClub/res/PROP-PTC.jpeg)
 
 :::
 ::::::::::::::
@@ -54,7 +54,7 @@ bibliography: MyLibrary.bib
 ## Back to PROP
 :::::::::::::: {.columns}
 ::: {.column}
-![@Genick2011](C:/Users/Matthiew/Documents/Research/Candidacy/JournalClub/CandidacyJournalClub/Genick2011-Fig4.png)
+![@Genick2011](C:/Users/Matthiew/Documents/Research/Candidacy/JournalClub/CandidacyJournalClub/res/Genick2011-Fig4.png)
 
 :::
 ::: {.column}
@@ -93,7 +93,7 @@ From @Robino2022:
 ## Previous GWAS study - @Reed2010
 :::::::::::::: {.columns}
 ::: {.column}
-![@Reed2010](C:/Users/Matthiew/Documents/Research/Candidacy/JournalClub/CandidacyJournalClub/ReedFig1.jpeg)
+![@Reed2010](C:/Users/Matthiew/Documents/Research/Candidacy/JournalClub/CandidacyJournalClub/res/ReedFig1.jpeg)
 
 :::
 ::: {.column}
@@ -218,7 +218,7 @@ Variance explained by SNP was calculated as $2* MAF* (1-MAF)* \beta^2$
     
 :::
 ::: {.column}
-![@Hwang2018](C:/Users/Matthiew/Documents/Research/Candidacy/JournalClub/CandidacyJournalClub/FigS2.png)
+![@Hwang2018](C:/Users/Matthiew/Documents/Research/Candidacy/JournalClub/CandidacyJournalClub/res/FigS2.png)
 :::
 ::::::::::::::
 
@@ -278,7 +278,7 @@ Variance explained by SNP was calculated as $2* MAF* (1-MAF)* \beta^2$
 
 :::
 ::: {.column}
-![@Genick2011](C:/Users/Matthiew/Documents/Research/Candidacy/JournalClub/CandidacyJournalClub/Genick2011-Fig7.png)
+![@Genick2011](C:/Users/Matthiew/Documents/Research/Candidacy/JournalClub/CandidacyJournalClub/res/Genick2011-Fig7.png)
 
 :::
 ::::::::::::: 
@@ -327,9 +327,17 @@ caption = "#, previously known agonist confirmed in the present study; §, previ
 
 :::
 ::: {.column}
-![](C:/Users/Matthiew/Documents/Research/Candidacy/JournalClub/CandidacyJournalClub/coffeebeans.jpg)
+![](C:/Users/Matthiew/Documents/Research/Candidacy/JournalClub/CandidacyJournalClub/res/coffeebeans.jpg)
 :::
 ::::::::::::::
+
+## Applications to My Research
+
+- May not be necessary to control for caffeine sensitivity  
+  + Caffeine contributes ~10-30% of bitterness  
+  + Top caffeine SNP explains ~2% of trait variance  
+- Can control for scale use and sensitivity  
+  + Remove outliers, either responding low or high on the scale
 
 # Questions
 

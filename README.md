@@ -4,13 +4,13 @@
 
 1.  present Hwang et al. (2018) as a journal club to the joint Simons-Cooperstone labs
 
-![screenshot](Hwang18Abstract.png)
+![screenshot](~/Research/Candidacy/JournalClub/CandidacyJournalClub/res/Hwang18Abstract.png)
 
 ### Citation:
 
-Hwang et al. (2018) *BMC Genomics*  19:678 <https://doi.org/10.1186/s12864-018-5058-2>
+Hwang et al. (2018) *BMC Genomics* 19:678 <https://doi.org/10.1186/s12864-018-5058-2>
 
-**Helpful background on GWAS:**  
+**Helpful background on GWAS:**
 
 Bush & Moore. (2012) *PLoS Comput Biol* 8(12): e1002822. <https://doi.org/10.1371/journal.pcbi.1002822>
 
