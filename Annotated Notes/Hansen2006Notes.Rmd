@@ -1,0 +1,79 @@
+---
+title: "Hansen et al. (2006) Notes"
+output: 
+  html_document:
+    keep-md: true
+bibliography: MyLibrary.bib
+---
+# Abstract: 
+![*Abstract of Hansen et al (2006)*](C:/Users/Matthiew/Documents/Research/Candidacy/JournalClub/CandidacyJournalClub/Hansen2006Abstract.png)  
+
+The methods from @HwangEtAl+shortyear are described in detail here.
+
+# Intro  
+- 50% of variance in PTC detection threshold is due to genetic differences  
+- 3 SNPs/5 haplotypes in TAS2R38 on chromosome 7
+- aim to investigate "extent of genetic covariation" among sensitivity to PROP, SOA, quinine, and caffeine
+
+# Methods
+## Taste test
+- 5 bitter samples, presented twice
+  - $2*10^{-4}\ M$ SOA
+  - $1.81*10^{-4}\ M$ quinine HCl
+  - $0.050 \ M$ caffeine
+  - $6.0*10^{-4}\ M$ PROP
+  - $4.99*10^{-6}\ M$ denatonium benzoate
+- presentation of the samples were all the same for all participants
+  + different presentation for replicate
+- presentation of the bitter samples were interwoven with water and sweet solutions
+- a dry PROP strip was also presented (not analyzed in @Hansen2006 but in @HwangEtAl+shortyear)
+- analyzed taste sensation on LMS (@greenEvaluatingLabeledMagnitude1996 and '93)
+- Procedure
+  - swish for 5 s, spit
+  - rate intensity on LMS
+  - rate taste quality (5 basic taste)
+  - rinse, repeat
+
+## Data Screening and Modeling
+- those who total scores were < 200 (average slightly above weak) or > 1800 mm (slightly below strongest imaginable)
+- total 705 participants
+- denatonium benzoate shwoed bimodal distribution (unable to be transformed in a way that didn't violate the assumption of normality for data analysis)
+- covariates included: age, sex, history of head injury, history of ear infection, smoking behavior, perfume/cologne/aftershave use)
+  + significant fixed covariates would be applied to the multivariate modeling
+  
+# Results
+- clustering from @Delwiche2001 seems to hold here, correlations between SOA, quinine, and caff; also lack of correlation of PROP to other bitter compounds
+- significant fixed effects (covariates) included age, sex, ear infection history, presentation order
+  + bitterness sensitivity decreases with increasing age
+  + sex effect: males found SOA more intense (sig); females found quinine more intense (NS)
+  + ear infection history tended to increase bitter sensitivity (increased scores)
+- MZ twins correlations were high for each bitter taste phenotype, suggesting genetic influence
+  + SOA, quinine, caff correlations were more than doubled
+    + suggests "nonadditive genetic influence"
+  + PROP correlations were half than DZ twin correlations
+    + suggests "common environmental factors"
+- modeling had low power to detect common environmental factors (C) and discriminate additive genetic (A) and non-additive genetic (D) factors
+- heritability estimates were 0.72 for PROP, 0.28 for SOA, 0.34 for quinine, and 0.30 for caffeine
+  + increased heritability estimate means direct/indirect genetic variation accounts for the variation in the trait ([Neele Lab](https://www.nealelab.is/blog/2017/9/13/heritability-101-what-is-heritability#:~:text=A%20high%20heritability%2C%20close%20to,to%20be%20informative%20%5B4%5D.))
+  
+# Discussion
+- no general/common single factor influenced all four compounds (SOA, PROP, quinine, caff)
+  + one common genetic group was responsible for the GV of SOA, quinine, caff, responsible for 22-28% of the variation in that cluster (cf @Delwiche2001)
+- the genetic factor accounting for 72% of the variation in PROP sensitivity only accounted for 1% of SOA and 2% of caffeine
+- low power in modeling certain factors could lead to inflated heritability estimates
+  + likely due to sample size and data screening process 
+- PROP/PTC threshold controlled by dominance of the taster haplotype in TAS2R38
+- large sample sizes needed to discriminate between additive and dominant genetic parameters in twin studies
+- suggest that a pathway involved in detecting SOA, quinine, and caffeine could be from detecting methyl-containing compounds
+- modest genetic factor explaining unique/additional pathway for quinine perception (accounting 12% of variation)
+- suggest TAS2R38 also influences PROP perception (and PTC)
+  + suggest smaller effects on caffeine and SOA perception
+- 19% of variation in caffeine explained by common environmental factor
+  + examples could be exposure to pesticides, lifestyle behaviors such as smoking, drinking alcohol, dietary factors, etc. [(NIH)](https://www.genome.gov/genetics-glossary/Environmental-Factors) 
+  + this common factor is seen in all four compounds (22% var in quinine; 14% var in SOA; 7% PROP)
+  + paper mentions diet, health, or experimental error (such as not properly rinsing)
+- mention significant age effect (NS but modest effect for quinine)
+  + diet changes from childhood to adolescence/adulthood
+- conclude different pathways for perception of PROP and SOA/quinine/caff (cf @Delwiche2001)
+
+# References

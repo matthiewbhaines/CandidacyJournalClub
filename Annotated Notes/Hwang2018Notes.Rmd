@@ -1,0 +1,169 @@
+---
+title: "Hwang et al. (2018) Notes"
+output: 
+  html_document:
+    keep-md: true
+bibliography: MyLibrary.bib
+---
+# Abstract: 
+![*Abstract of Hwang et al. (2018)*](C:/Users/Matthiew/Documents/Research/Candidacy/JournalClub/CandidacyJournalClub/Hwang18Abstract.png)  
+
+# Glossary/Abbreviations:
+- *haplotype* - a group of SNPs ([NIH lecture](https://youtu.be/HHvdupHgeFg?si=zvgAl1gHi0-YxVmt))  
+- *TAS2R* - a gene  
+- *T2R* - a protein  
+- *multivariate associated analysis*  
+- *genome-wide association study (GWAS)* - aim to identify genetic risk factors for common diseases by utilizing DNA sequence variations (@BushMoore+shortyear)  
+- *minor allele frequency (MAF)* - frequency of the less common allele in a SNP (@BushMoore+shortyear)  
+- *pleiotropy* - one gene influences two or more seemingly unrelated phenotypic traits (Wikipedia)
+  + one gene controls expression of multiple/several phenotypic traits  
+  + ex. sickle cell disease ([ThoughtCo.](https://www.thoughtco.com/pleiotropy-definition-4687155))
+- *single nucleotide polymorphism (SNP)* - a single change in a base pair, seen/occur with high frequency, common, given in terms of minor allele frequency  (@BushMoore+shortyear)  
+- *linkage disequilibrium (LD)* - if 2 pairs are always seen together (at higher than chance level) (ex. AB and ab) out of possible combinations (AB, Ab, aB, ab), distance between 2 genes is assumed to be small  
+  + linkage between markers on a population scale (across many many generations) (@BushMoore+shortyear)
+  + *linkage equilibrium* would be when no alleles/markers are linked, independent
+  + LD is reported in R^2, where $\uparrow$ r^2 means two SNPs convey similar info
+- *mutation* - low frequency variation in genetic sequence, rare (@BushMoore+shortyear)
+- susceptibility variant
+- *recombination*
+- *penetrance* - effect size (of a genetic variant) (@BushMoore+shortyear)
+- *phenotype* - the expression of a certain trait (think "physical")
+- *genotype* - the genetic makeup, or the specific combination of alleles (think "genes")
+- *missense variant* - genetic mutation that is substituting one amino acid for another; can result in altering protein's function ([osmosis.org](https://www.osmosis.org/answers/missense-mutation))
+  + many times, this AA subsititution will not affect overall protein function/structure, but if an AA with very different properties is substituted, altering folding, structure or function may occur
+  + sickle cell disease is an example of a missense mutation having a serious effect on a protein's structure and function
+- *total variance* - includes all sources of variance: genetic, environmenal, interaction ([chatpdf.com](chatpdf.com))
+- *genetic variance* - the portion of total variance explained/attributed to genetic differences among individuals in a population ([chatpdf.com](chatpdf.com))
+  + how much variability can be explained by genetic factors alone
+- *conditional analysis* - a statistical technique where if two SNPs may have an influence on a trait (possible pleiotropy), use a model including both SNPs. If the first SNP is still significant, implies independent effect after controlling for the second SNP ([chatpdf.com](chatpdf.com))
+
+![Genotype versus Phenotype](C:/Users/Matthiew/Documents/Research/Candidacy/JournalClub/CandidacyJournalClub/Genotype.jpg)
+[from the **National Human Genome Research Institute**](https://www.genome.gov/genetics-glossary/genotype)
+
+
+
+# Introduction  
+- bitterness perception is partially determined by genetics  
+  + genetic effect is estimated to be between 36% and 73%
+  + this would be the "variance" described in @BushMoore+shortyear
+- *TAS2R* is a gene; *T2R* is the protein product
+- bitter taste perception has been correlated with disease status and certain surgical outcomes, so it is important to understand bitterness perception in the interest in personalizing medicine  
+- what is a **haplotype**?
+- PROP is associated with TAS2R38
+- Quinine (Q) is associated with TAS2R19
+- this study aims to $\uparrow$ N (sample size) and use multivariate associated analysis (?) to identify common genetic variances (minor allele frequency [MAF] $\geq$ 5%) with small effects  
+  + what is the "plain English" version?
+- using MV GWAS can find associations that didn't reach significance in univariate analysis
+
+![**Figure 1**](https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs12864-018-5058-2/MediaObjects/12864_2018_5058_Fig1_HTML.png?as=webp)  
+
+  + 1A: spread on y axis, not on x axis
+    + only T1 (y axis) is associated with variant (non-pleiotropic)
+    + better separation seen in 2D (practice with the pencil test from high school math class)
+  + 1B: spread on y and x axis
+    + minor allele has opposing effects, $\uparrow$ T1 (Y) and $\downarrow$ T2 (X)
+    + starting to see the spread on y and x axes, especially when combined
+  + 1C: minor allele has similar effects, $\uparrow$ T1 (Y) and $\uparrow$ T2 (X)
+    + no greater separation with bivariate analysis than would get with univariate
+    
+- what is/are the hypotheses when conducting a GWAS?
+  + see @BushMoore+shortyear, hypothesis seeking associations of genetic variances (SNPs) to a trait/disease  
+  
+# Methods
+- 1999 Caucasians (this is important from an ancestral history POV for the GWAS)
+  + mention this is an increase (by 40% of sample size)
+- taste battery methods described in @Hansen2006
+- removed participants > 6 SD away from PC1 and PC2, only those with exclusively European ancestry was kept
+
+## GWAS analysis
+- linear mixed model
+- covariates (fixed effects): age, sex, ear infection history, first 5 PC from genotype
+  + why were 5 PC included?
+  + covariate matrix allowed siblings/relatives to be included in the analysis
+  
+- bivariate analysis complemented univariate analysis  
+  + can enhance the strength of a SNP association, but not effect size  
+  
+- what is conditional analysis
+- square root transformed bitter intensity ratings, then transformed to z-scores
+- used p < $5 * 10^{-8}$ for genome wide significance
+  + used a Bonferroni corrected p < $1*10^{-8}$
+- used additive model
+- variance explained by SNP was calculated as $2* MAF* (1-MAF)* \beta^2$
+
+## Functional annotation of identified SNPs
+- functional annotation can be used to identify any potential roles of the identified SNPs
+  + could be used to identify/develop mechanistic hypotheses in understanding variance in taste perception based on the identified/associates SNPs
+  
+# Results
+- confirmed associations with PROP (rs10246939) and quinine (rs10772420) from @Reed2010
+- identified and provide independent rep for caffeine (rs2597979)
+- identified 2 new associations for SOA (rs67487380) and DB (rs10261515)  
+
+**Quinine**  
+
+- rs10772420 leads to missense variant on TAS2R19 (chromosome 12)
+- explained the same amount of variance from previous study (5.7%; @Reed2010)
+- caffeine and quinine were analyzed in bivariate analysis
+  - small association (p = 0.0025)
+  - minor allele showed decrease in caffeine and increase in quinine perception
+  - quinine-rs10772420 sig after conditional analysis with caffeine (rs2597979) and SOA (rs67487380)
+  - quinine-rs2597979 association (p = 0.044) seen
+    + could this suggest rs2597979 has a pleiotropic effect?
+- similar results seen with SOA and DB (@Delwiche2001)
+  - minor allele in same direction as quinine
+    
+![**Figure S1 from @HwangEtAl+shortyear:** Direction and size of the effects of SNP associations on the perceived intensities of quinine, caffeine, sucrose octaacetate (SOA) and denatonium benzoate (DB). rs10772420 has the strongest effect on quinine is in the same direction (negative) as its effect on SOA and DB (Qs and Qd) but the opposite (positive) on caffeine (Qc). The effect size (; see Supplementary Table 9 for variance explained) is the largest for quinine, and it is smaller but at a similar level for the others. The minor allele of rs2597979 has opposite effects on caffeine and quinine (Cq). The direction of effect on SOA and DB (Cs and Cd) is the same as that on caffeine but the size of their effects is subtle. The minor allele of rs67487380 has negative effects on all bitter tastes. The effect size for SOA is similar to those for quinine and DB (Sq and Sd), which positions them close to the diagonal line. The effect on caffeine is the minimum. The minor allele of rs10261515 has the largest and negative effect on DB. Its effects on the others are subtle, but they tend to be negative, null and positive on SOA, caffeine and quinine (Ds, Dc and Dq), respectively. add effect sizes for each SNPs.](C:/Users/Matthiew/Documents/Research/Candidacy/JournalClub/CandidacyJournalClub/FigS1.png)
+
+- $\beta$ from minor allele of trait 1 (Quinine) did not vary much ($\beta$ = -0.337, explained 12.32% genetic variance), but the $\beta$ from trait 2 (caff, SOA, DB) varied in magnitude and direction
+  - Qc (Quinine-caffeine, red; $\beta$ = 0.107, 1.24% genetic variance) showing effects in opposite directions, represents *Figure 1b* from above
+  - Qs ($\beta$ = -0.137, 2.04% genetic variance) and Qd ($\beta$ = -0.106, 1.22% genetic variance) show effects in same directions, representing *Figure 1c* from above
+  
+**Caffeine**  
+
+- peak at rs2597979 (chromosome 12; p = $4.2*10^{-8}$)
+  - provided an independent replication of this SNP with caffeine (@Ledda2014)
+  - caffeine-rs2597979 association remained after conditional analysis with rs10772420 (top quinine SNP, $r^2$ = 0.24)
+  - explained 1.91% trait variance (6.15% genetic variance; **Table S9**)
+- rs2597979 was not associated with SOA or DB (explained 0.16% and 0.05% genetic variance, respectively)
+
+**SOA and DB**
+
+- rs67487380 was strongly assoc with SOA
+  + also associated with quinine and DB
+  + SOA-rs67487380 association remained after conditioning on quinine (rs10772420)
+  + SOA-rs67487380 association remained after conditioning on caffeine (rs2597979)
+- top SOA SNPs were highly correlated with DB (chromosome 12; Fig 4)
+- marginal enhancement effects were seen in bivariate analysis due to correlation of phenotype
+  + between SOA and caffeine
+- no specific SNP reached significance in univariate analysis (p > $1.0 * 10^{-6}$)
+- rs10261515 increased in association strength in DB-quinine analysis
+  + this can be seen in Fig 4, where top quinine SNPs are somewhat correlated with top DB SNPs
+  + rs10261515 was not associated with quinine perception (p = 0.15)
+  + DB-rs10261515 association was seen after conditioning for PROP and quinine scores
+- rs10261515 is within *KIAA1147* gene, which is expressed in stomach, ascending colon, cerebellum, and cerebral cortex ([Wikipedia](wikipedia.org/wiki/LCHN)) 
+
+**PROP**
+
+- strong association with rs10246939 on chromosome 7 (the "classic" SNP)
+  + seen in @Reed2010 as well
+- no signals on chromosomes 5 or 16, where additional loci are proposed
+- PROP paper showed association on chromosome 2, rs6761655
+  + appeared in @Reed2010 but was weak and therefore not reported
+  + not reported in other GWAS studies using PROP
+  + not seen in PROP solution (see Fig S2)
+
+## Functional Analysis
+Brief summary (from Table S11) (mTQL = methylation quantitative trait loci; eQTL = expression quantitative trait loci)
+1.	PROP, quinine, caffeine, and SOA-associated SNPs include missense variants.
+2.	PROP, quinine, and DB-associated SNPs are located within conserved region.
+3.	Except for caffeine-associated SNPs, all SNPs are in high DNAse hypersensitivity sites.
+4.	PROP, SOA, and DB-associated SNPs are inside promoter and/or enhancer regions.
+5.	All SNPs may cause regulatory motif change of a protein. 
+6.	All SNPs are eQTLs.
+7.	Quinine, caffeine, and SOA-associated SNPs are mQTLs.
+8.	None of these analyses was performed using taste tissues.
+
+(Is this important to focus on and understand?)
+
+# References
